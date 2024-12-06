@@ -413,7 +413,7 @@
               {
                 "name": "FOREST_GREEN_ROCK_SPIKES_LARGE_A_NOCOL",
                 "pos": "0 -1 -15",
-                "rot": "325.67 25.2 16.76"
+                "rot": "326 25 17"
               },
               {
                 "name": "FOREST_GREEN_T1_BUSH_A",
@@ -455,13 +455,14 @@
                 "roty": 180
               },
               {
-                "name": "FOREST_GREEN_KPR_FILL_TABLE_STONE_FUR_A_SMALL",
-                "pos": "3 8 0.57"
-              },
-              {
                 "name": "FOREST_GREEN_T1_TREE_GIANT_BEND_B",
                 "pos": "16.5 8 -8.5",
                 "rot": "356 5 355"
+              },
+              {
+                "name": "FOREST_GREEN_T1_TREE_GIANT_BEND_B",
+                "pos": "-22 0 17",
+                "rot": "0 0 2"
               },
               {
                 "name": "FOREST_GREEN_T1_TREE_GIANT_BEND_B",
@@ -470,23 +471,47 @@
                 "scale": "1 1.0176 1"
               },
               {
-                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_B",
-                "pos": "5 9 -16"
+                "name": "FOREST_GREEN_GROUND_PATCH_TO_ROAD_CIRCLE_A",
+                "pos": "3 8 1",
+                "scale": "3.094973 1 2.370198"
+              },
+              {
+                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NOCOL_NORAMP",
+                "pos": "12 4.51 15",
+                "rot": "18 14 17"
+              },
+              {
+                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NOCOL_NORAMP",
+                "pos": "16 4 12",
+                "rot": "9 246 14"
+              },
+              {
+                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NORAMP",
+                "pos": "-6 4 -13",
+                "rot": "350 36 353"
+              },
+              {
+                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
+                "pos": "-3 -4 -16",
+                "roty": 58
+              },
+              {
+                "name": "FOREST_GREEN_VEG_FERN_D",
+                "pos": "-16.5 0 19.5",
+                "roty": 180
+              },
+              {
+                "name": "FOREST_GREEN_KPR_FILL_TABLE_STONE_FUR_A_SMALL",
+                "pos": "3 8 0.57"
+              },
+              {
+                "name": "FOREST_GREEN_VEG_FERN_D",
+                "pos": "5.5 8 14.5",
+                "roty": 180
               },
               {
                 "name": "FOREST_GREEN_VEG_FERN_A",
-                "pos": "21.5 0 -21.5",
-                "roty": 90
-              },
-              {
-                "name": "FOREST_GREEN_T1_TREE_GIANT_BEND_B",
-                "pos": "-14 0 21",
-                "rot": "358 357 355",
-                "scale": "1 0.9295499 1"
-              },
-              {
-                "name": "FOREST_GREEN_VEG_FERN_A",
-                "pos": "22.5 0 -7.5",
+                "pos": "-6.5 8 -0.5",
                 "roty": 180
               },
               {
@@ -497,8 +522,23 @@
               },
               {
                 "name": "FOREST_GREEN_VEG_FERN_A",
-                "pos": "-6.5 8 -0.5",
+                "pos": "22.5 0 -7.5",
                 "roty": 180
+              },
+              {
+                "name": "FOREST_GREEN_T1_TREE_GIANT_BEND_B",
+                "pos": "-14 0 21",
+                "rot": "358 357 355",
+                "scale": "1 0.9295499 1"
+              },
+              {
+                "name": "FOREST_GREEN_VEG_FERN_A",
+                "pos": "21.5 0 -21.5",
+                "roty": 90
+              },
+              {
+                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_B",
+                "pos": "5 9 -16"
               },
               {
                 "name": "FOREST_GREEN_VEG_FERN_D",
@@ -506,49 +546,13 @@
                 "roty": 180
               },
               {
-                "name": "FOREST_GREEN_VEG_FERN_D",
-                "pos": "5.5 8 14.5",
-                "roty": 180
-              },
-              {
-                "name": "FOREST_GREEN_VEG_FERN_D",
-                "pos": "-16.5 0 19.5",
-                "roty": 180
-              },
-              {
-                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
-                "pos": "-3 -4 -16",
-                "roty": 58
-              },
-              {
-                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NORAMP",
-                "pos": "-6 4 -13",
-                "rot": "350 36 353"
-              },
-              {
-                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NOCOL_NORAMP",
-                "pos": "16 4 12",
-                "rot": "9 246 14"
-              },
-              {
-                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NOCOL_NORAMP",
-                "pos": "12 4.51 15",
-                "rot": "18 14 17"
-              },
-              {
-                "name": "FOREST_GREEN_T1_TREE_GIANT_BEND_B",
-                "pos": "-22 0 17",
-                "rot": "0 0 2"
+                "name": "FOREST_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_C",
+                "pos": "19 0 16"
               },
               {
                 "name": "FOREST_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_C",
                 "pos": "-20 2 -9",
                 "rot": "32 273 1"
-              },
-              {
-                "name": "FOREST_GREEN_PLATEAU_ROCK_DEBRIS_C",
-                "pos": "-3 0 -18",
-                "roty": 232
               },
               {
                 "name": "FOREST_GREEN_T1_BUSH_B",
@@ -656,9 +660,9 @@
                 "pos": "-5 8 14"
               },
               {
-                "name": "FOREST_GREEN_GROUND_PATCH_TO_ROAD_CIRCLE_A",
-                "pos": "3 8 1",
-                "scale": "3.094973 1 2.370198"
+                "name": "FOREST_GREEN_PLATEAU_ROCK_DEBRIS_C",
+                "pos": "-3 0 -18",
+                "roty": 232
               },
               {
                 "name": "FOREST_GREEN_VEG_GRASS_SMALL_A",
@@ -697,7 +701,8 @@
               },
               {
                 "name": "FOREST_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_C",
-                "pos": "19 0 16"
+                "pos": "-3 8 -10",
+                "rot": "32 273 1"
               }
             ]
           },
@@ -2104,6 +2109,31 @@
                 "roty": 90
               },
               {
+                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "8 0 18",
+                "roty": 90
+              },
+              {
+                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "16 -2 15",
+                "roty": 180
+              },
+              {
+                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "19 0 8",
+                "roty": 270
+              },
+              {
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-14 2 -16",
+                "roty": 90
+              },
+              {
+                "name": "FOREST_GREEN_FILL_RUIN_WALL_INNERCORNER_ROUNDED_A",
+                "pos": "1 2 -11",
+                "roty": 85
+              },
+              {
                 "name": "FOREST_GREEN_FILL_GROUND_COBBLESTONES_PATCH_SINGLE_A",
                 "pos": "9 8 -7"
               },
@@ -2113,18 +2143,14 @@
                 "roty": 327
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-4 3 -11",
-                "rot": "39 194 9"
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "15 8 6",
+                "roty": 180
               },
               {
                 "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_CORNER_A",
                 "pos": "11 8 -11",
                 "roty": 90
-              },
-              {
-                "name": "FOREST_GREEN_VEG_GRASS_B_SMALL",
-                "pos": "20 0 -16"
               },
               {
                 "name": "FOREST_GREEN_UND_BONES_A",
@@ -2137,13 +2163,12 @@
                 "pos": "16.5 8 -6.5"
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_C_NOCOL",
-                "pos": "-13 4 2",
-                "rot": "30 315 15"
-              },
-              {
                 "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
                 "pos": "6 8 14"
+              },
+              {
+                "name": "FOREST_GREEN_T1_BUSH_A",
+                "pos": "-5.5 8 4.5"
               },
               {
                 "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
@@ -2161,43 +2186,53 @@
                 "roty": 180
               },
               {
+                "name": "FOREST_GREEN_VEG_GRASS_B_SMALL",
+                "pos": "20 0 -16"
+              },
+              {
                 "name": "FOREST_GREEN_FILL_GROUND_COBBLESTONES_PATCH_SMALL_A",
                 "pos": "8 8 8",
                 "roty": 270,
                 "scale": "1.2 1 1.2"
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
+                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "15 -1 -15",
+                "roty": 270
+              },
+              {
+                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_BEND_A",
+                "pos": "13.5 9 -16.5",
+                "rot": "353 354 4"
+              },
+              {
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-14 0 15",
+                "roty": 30
+              },
+              {
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-4 3 -11",
+                "rot": "39 194 9"
+              },
+              {
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
                 "pos": "-10.21 6.27 0.16",
                 "rot": "23 315 11"
               },
               {
-                "name": "FOREST_GREEN_VEG_GRASS_B_SMALL",
-                "pos": "-20 0 21"
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-15 2 -15",
+                "roty": 195
               },
               {
-                "name": "FOREST_GREEN_UND_TABLE_BROKEN_A",
-                "pos": "11.5 8 8.5",
-                "roty": 277
+                "name": "FOREST_GREEN_UND_BOOKSHELF_B_NOBLEND",
+                "pos": "10 5 -13",
+                "rot": "8 271 22"
               },
               {
-                "name": "FOREST_GREEN_T1_BUSH_A",
-                "pos": "-5.5 8 4.5"
-              },
-              {
-                "name": "FOREST_GREEN_T1_BUSH_B",
-                "pos": "-5.5 8 6.5",
-                "roty": 327
-              },
-              {
-                "name": "FOREST_GREEN_FILL_RUIN_WALL_INNERCORNER_ROUNDED_A",
-                "pos": "1 2 -11",
-                "roty": 85
-              },
-              {
-                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "19 0 8",
-                "roty": 270
+                "name": "FOREST_GREEN_FILL_GROUND_COBBLESTONES_PATCH_SMALL_A",
+                "pos": "-6 8 9"
               },
               {
                 "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
@@ -2205,14 +2240,13 @@
                 "rot": "358 109 354"
               },
               {
+                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_BEND_A",
+                "pos": "-15.5 3 6.5"
+              },
+              {
                 "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_COMP_A_NORAMP",
                 "pos": "-2 -3 -14",
                 "roty": 325
-              },
-              {
-                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NORAMP",
-                "pos": "10 4 17",
-                "rot": "6 198.79 357.99"
               },
               {
                 "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
@@ -2235,47 +2269,8 @@
                 "rot": "359 92 9"
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
-                "pos": "-14 2 -16",
-                "roty": 90
-              },
-              {
                 "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
                 "pos": "16 -4 13",
-                "roty": 180
-              },
-              {
-                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_BEND_A",
-                "pos": "6 8 -17",
-                "rot": "354 168 358"
-              },
-              {
-                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_BEND_A",
-                "pos": "13.5 9 -16.5",
-                "rot": "353 354 4"
-              },
-              {
-                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_BEND_A",
-                "pos": "-15.5 3 6.5"
-              },
-              {
-                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "15 -1 -15",
-                "roty": 270
-              },
-              {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
-                "pos": "15 8 6",
-                "roty": 180
-              },
-              {
-                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "8 0 18",
-                "roty": 90
-              },
-              {
-                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "16 -2 15",
                 "roty": 180
               },
               {
@@ -2283,18 +2278,33 @@
                 "pos": "16 -3 7"
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A",
-                "pos": "-4 0 -17",
-                "roty": 270
+                "name": "FOREST_GREEN_T1_DECO_TREE_GIANT_BEND_A",
+                "pos": "6 8 -17",
+                "rot": "354 168 358"
               },
               {
-                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "13 -1 -19",
-                "roty": 270
+                "name": "FOREST_GREEN_ROCK_PLATEAU_WALL_A_NORAMP",
+                "pos": "10 4 17",
+                "rot": "6 198.79 357.99"
               },
               {
                 "name": "FOREST_GREEN_VEG_GRASS_B_SMALL",
-                "pos": "-20 0 -23"
+                "pos": "-20 0 21"
+              },
+              {
+                "name": "FOREST_GREEN_UND_TABLE_BROKEN_A",
+                "pos": "11.5 8 8.5",
+                "roty": 277
+              },
+              {
+                "name": "FOREST_GREEN_T1_BUSH_B",
+                "pos": "-5.5 8 6.5",
+                "roty": 327
+              },
+              {
+                "name": "FOREST_GREEN_UND_CHAIR_A",
+                "pos": "10.5 8 11.5",
+                "roty": 90
               },
               {
                 "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_C_NOCOL",
@@ -2321,19 +2331,14 @@
                 "roty": 26
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-14 0 15",
-                "roty": 30
-              },
-              {
                 "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
                 "pos": "17 -1 -11",
                 "roty": 270
               },
               {
-                "name": "FOREST_GREEN_UND_CHAIR_A",
-                "pos": "10.5 8 11.5",
-                "roty": 90
+                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "8 1 -19",
+                "roty": 270
               },
               {
                 "name": "FOREST_GREEN_VEG_GRASS_B_SMALL",
@@ -2374,11 +2379,6 @@
                 "pos": "-5.5 8 1.5"
               },
               {
-                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "8 1 -19",
-                "roty": 270
-              },
-              {
                 "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_CORNER_A",
                 "pos": "8 8 -12",
                 "roty": 180
@@ -2387,6 +2387,25 @@
                 "name": "FOREST_GREEN_FILL_RUIN_WALL_B",
                 "pos": "9 5 14",
                 "roty": 90
+              },
+              {
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_B_NOCOL",
+                "pos": "0 4 -12",
+                "rot": "305 356 50"
+              },
+              {
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_LARGE_A",
+                "pos": "-4 0 -17",
+                "roty": 270
+              },
+              {
+                "name": "FOREST_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "13 -1 -19",
+                "roty": 270
+              },
+              {
+                "name": "FOREST_GREEN_VEG_GRASS_B_SMALL",
+                "pos": "-20 0 -23"
               },
               {
                 "name": "FOREST_GREEN_T1_DECO_BUSH_B",
@@ -2431,11 +2450,6 @@
                 "roty": 180
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-2 4 -11",
-                "rot": "39 194 9"
-              },
-              {
                 "name": "FOREST_GREEN_FILL_RUIN_WALL_COLUMN_A",
                 "pos": "13.5 8 11",
                 "roty": 90
@@ -2459,23 +2473,14 @@
                 "pos": "-7 8 16"
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_B_NOCOL",
-                "pos": "0 4 -12",
-                "rot": "305.34 355.96 50.03"
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_C",
+                "pos": "-13 4 2",
+                "roty": 180
               },
               {
-                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-15 2 -15",
-                "roty": 195
-              },
-              {
-                "name": "FOREST_GREEN_FILL_GROUND_COBBLESTONES_PATCH_SMALL_A",
-                "pos": "-6 8 9"
-              },
-              {
-                "name": "FOREST_GREEN_UND_BOOKSHELF_B_NOBLEND",
-                "pos": "10 5 -13",
-                "rot": "8 271 22"
+                "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-2 4 -11",
+                "rot": "39 194 9"
               }
             ]
           }

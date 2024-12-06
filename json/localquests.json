@@ -236,7 +236,8 @@
               }
             ]
           },
-          "unlockpersonallootchest": {}
+          "unlockpersonallootchest": {},
+          "maketreasureshrinevisible": {}
         }
       },
       {
@@ -294,7 +295,8 @@
               }
             ]
           },
-          "unlockpersonallootchest": {}
+          "unlockpersonallootchest": {},
+          "maketreasureshrinevisible": {}
         }
       },
       {
@@ -352,7 +354,8 @@
               }
             ]
           },
-          "unlockpersonallootchest": {}
+          "unlockpersonallootchest": {},
+          "maketreasureshrinevisible": {}
         }
       },
       {
@@ -410,7 +413,8 @@
               }
             ]
           },
-          "unlockpersonallootchest": {}
+          "unlockpersonallootchest": {},
+          "maketreasureshrinevisible": {}
         }
       },
       {
@@ -468,7 +472,8 @@
               }
             ]
           },
-          "unlockpersonallootchest": {}
+          "unlockpersonallootchest": {},
+          "maketreasureshrinevisible": {}
         }
       },
       {
@@ -526,7 +531,8 @@
               }
             ]
           },
-          "unlockpersonallootchest": {}
+          "unlockpersonallootchest": {},
+          "maketreasureshrinevisible": {}
         }
       }
     ]

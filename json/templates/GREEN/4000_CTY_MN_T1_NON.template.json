@@ -10021,12 +10021,6 @@
           "pos": "204.5 0 -29.5"
         },
         {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_A",
-          "pos": "-32.5 0 -20.5",
-          "roty": 270,
-          "scale": "1 0.2 1"
-        },
-        {
           "name": "MOUNTAIN_GREEN_FILL_STORAGE_BARRELS_A",
           "pos": "-30 0 -25",
           "roty": 180
@@ -10075,11 +10069,6 @@
           "roty": 225
         },
         {
-          "name": "MOUNTAIN_GREEN_GROUND_STONES_C",
-          "pos": "-27 0 27",
-          "roty": 225
-        },
-        {
           "name": "ARENA_ENTRANCE_POINT_LIGHT_A",
           "pos": "-84.69 -7.64 37.67",
           "pointlight": {
@@ -10089,9 +10078,19 @@
           }
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_CITY_STATUE_A",
-          "pos": "16 -1 13",
-          "roty": 217
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_A",
+          "pos": "-32.5 0 -20.5",
+          "roty": 270,
+          "scale": "1 0.2 1"
+        },
+        {
+          "name": "ARENA_ENTRANCE_POINT_LIGHT_A",
+          "pos": "-87.6 -7.64 34.62",
+          "pointlight": {
+            "range": 10,
+            "intensity": 4,
+            "color": "1 0.5137255 0.1411765"
+          }
         },
         {
           "name": "MOUNTAIN_GREEN_FILL_HILL_BASE_D",
@@ -10141,31 +10140,27 @@
           "pos": "210.5 20 42.5"
         },
         {
-          "name": "ARENA_ENTRANCE_POINT_LIGHT_A",
-          "pos": "-87.6 -7.64 34.62",
-          "pointlight": {
-            "range": 10,
-            "intensity": 4,
-            "color": "1 0.5137255 0.1411765"
-          }
-        },
-        {
           "name": "MOUNTAIN_GREEN_T1_BUSH_DRY_B",
           "pos": "220.5 20 36.5"
         },
         {
-          "name": "MOUNTAIN_GREEN_GROUND_STONES_C",
-          "pos": "-49 -12 51",
-          "roty": 45
+          "name": "MOUNTAIN_GREEN_FILL_CITY_STATUE_A",
+          "pos": "16 -1 13",
+          "roty": 217
         },
         {
-          "name": "MOUNTAIN_GREEN_GROUND_STONES_B",
-          "pos": "-25 0 25",
+          "name": "MOUNTAIN_GREEN_FILL_ROCK_ADD_CORNER_A",
+          "pos": "213 20 42"
+        },
+        {
+          "name": "MOUNTAIN_GREEN_GROUND_STONES_C",
+          "pos": "-27 0 27",
           "roty": 225
         },
         {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_A",
-          "pos": "-61.5 -12 47.5"
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_B",
+          "pos": "-53.5 -12 65.5",
+          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_BANNER_LARGE_A",
@@ -10214,18 +10209,18 @@
           "roty": 90
         },
         {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_B",
-          "pos": "-53.5 -12 65.5",
-          "roty": 90
-        },
-        {
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_INNERCORNER_A",
           "pos": "-40 0 20"
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_ENT_TOWER_A",
-          "pos": "-31 -5 19",
-          "roty": 339.27
+          "name": "MOUNTAIN_GREEN_GROUND_STONES_C",
+          "pos": "-49 -12 51",
+          "roty": 45
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_INNERCORNER_A",
+          "pos": "-40 0 10",
+          "roty": 270
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_BUILDING_A",
@@ -10275,13 +10270,14 @@
           "scale": "1 0.2 1"
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_INNERCORNER_A",
-          "pos": "-40 0 10",
-          "roty": 270
+          "name": "MOUNTAIN_GREEN_GROUND_STONES_B",
+          "pos": "-25 0 25",
+          "roty": 225
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_ROCK_ADD_CORNER_A",
-          "pos": "213 20 42"
+          "name": "MOUNTAIN_GREEN_CITY_ENT_TOWER_A",
+          "pos": "-31 -5 19",
+          "roty": 339.27
         },
         {
           "name": "MOUNTAIN_GREEN_ROAD_STREET_8M_RAMP_10x20_A",
@@ -10293,9 +10289,9 @@
           "pos": "25 -16 200"
         },
         {
-          "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_LARGE_A",
-          "pos": "265 44 50",
-          "roty": 90
+          "name": "MOUNTAIN_GREEN_ROAD_STREET_8M_RAMP_10x20_A",
+          "pos": "40 -24 215",
+          "roty": 270
         },
         {
           "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_LARGE_A",
@@ -10345,17 +10341,18 @@
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_LARGE_A",
-          "pos": "315 44 -70",
-          "roty": 270
-        },
-        {
           "name": "MOUNTAIN_GREEN_ROAD_STREET_STRAIGHT_A",
           "pos": "200 -16 -10"
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_HILL_BASE_A",
-          "pos": "176 -16 16"
+          "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_LARGE_A",
+          "pos": "265 44 50",
+          "roty": 90
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
+          "pos": "180 -16 12",
+          "roty": 125
         },
         {
           "name": "MOUNTAIN_GREEN_FILL_HILL_BASE_A",
@@ -10403,9 +10400,18 @@
           "scale": "5.485991 5.485991 5.485991"
         },
         {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "180 -16 12",
-          "roty": 125
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
+          "pos": "170 16 40",
+          "roty": 180
+        },
+        {
+          "name": "MOUNTAIN_GREEN_FILL_HILL_BASE_A",
+          "pos": "176 -16 16"
+        },
+        {
+          "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_LARGE_A",
+          "pos": "315 44 -70",
+          "roty": 270
         },
         {
           "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_LARGE_A",
@@ -10415,16 +10421,6 @@
         {
           "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_LARGE_A",
           "pos": "275 44 -70",
-          "roty": 270
-        },
-        {
-          "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_A",
-          "pos": "230 28 -40",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_ROAD_STREET_8M_RAMP_10x20_A",
-          "pos": "40 -24 215",
           "roty": 270
         },
         {
@@ -10529,28 +10525,28 @@
           "roty": 180
         },
         {
+          "name": "MOUNTAIN_GREEN_PLATEAU_8M_STRAIGHT_A",
+          "pos": "230 28 -40",
+          "roty": 180
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_CHUNKS_A",
+          "pos": "-61.5 -12 47.5"
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
+          "pos": "170 14 30",
+          "rot": "19 180 0"
+        },
+        {
           "name": "MOUNTAIN_GREEN_CITY_BANNER_LARGE_A",
           "pos": "-65 0 53",
           "roty": 221
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
-          "pos": "170 16 40",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_CITY_MARKETPLACE_TOWER_A",
-          "pos": "-64 -12 45",
-          "roty": 17
-        },
-        {
           "name": "MOUNTAIN_GREEN_FILL_RUIN_WALL_SMALL_STRAIGHT_A",
-          "pos": "0.5 20 -136.5"
-        },
-        {
-          "name": "MOUNTAIN_GREEN_ROAD_STREET_STRAIGHT_C",
-          "pos": "0 0 -60",
-          "roty": 270
+          "pos": "7.5 20 -133.5",
+          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_ROAD_STREET_STRAIGHT_C",
@@ -10602,19 +10598,19 @@
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_ROAD_STREET_STRAIGHT_C",
-          "pos": "0 0 -50",
-          "roty": 90
-        },
-        {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A",
           "pos": "195 28 -205",
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A",
-          "pos": "-165 28 -215",
+          "name": "MOUNTAIN_GREEN_ROAD_STREET_STRAIGHT_C",
+          "pos": "0 0 -60",
           "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A",
+          "pos": "225 28 65",
+          "roty": 180
         },
         {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A",
@@ -10665,29 +10661,29 @@
           "pos": "-185 20 -155"
         },
         {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A",
-          "pos": "225 28 65",
-          "roty": 180
-        },
-        {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_20X20_STRAIGHT_A",
           "pos": "155 20 -195",
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_ROAD_STREET_INNERCORNER_PLACE_A",
-          "pos": "10 0 -20",
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_LEFT_A",
+          "pos": "-165 28 -215",
+          "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_20X20_STRAIGHT_A",
+          "pos": "215 28 -165",
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_SHED_SMALL_A",
-          "pos": "20 0 -32",
+          "name": "MOUNTAIN_GREEN_ROAD_STREET_STRAIGHT_C",
+          "pos": "0 0 -50",
           "roty": 90
         },
         {
-          "name": "MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL",
-          "pos": "1 2 -84.5",
-          "roty": 270
+          "name": "MOUNTAIN_GREEN_ROAD_STREET_TO_PLACE_C",
+          "pos": "0 0 30",
+          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A",
@@ -10738,18 +10734,18 @@
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_ROAD_STREET_TO_PLACE_C",
-          "pos": "0 0 30",
-          "roty": 90
-        },
-        {
           "name": "MOUNTAIN_GREEN_CITY_BUILDING_C",
           "pos": "10 0 -60",
           "roty": 90
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_BUILDING_E",
-          "pos": "20 0 -40",
+          "name": "MOUNTAIN_GREEN_ROAD_STREET_INNERCORNER_PLACE_A",
+          "pos": "10 0 -20",
+          "roty": 180
+        },
+        {
+          "name": "MOUNTAIN_GREEN_ROAD_STREET_CORNER_PLACE_A",
+          "pos": "30 0 -10",
           "roty": 180
         },
         {
@@ -10802,13 +10798,13 @@
           "pos": "0 12 -80"
         },
         {
-          "name": "MOUNTAIN_GREEN_ROAD_STREET_CORNER_PLACE_A",
-          "pos": "30 0 -10",
-          "roty": 180
+          "name": "MOUNTAIN_GREEN_CITY_SHED_SMALL_A",
+          "pos": "20 0 -32",
+          "roty": 90
         },
         {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_20X20_STRAIGHT_A",
-          "pos": "215 28 -165",
+          "name": "MOUNTAIN_GREEN_CITY_BUILDING_E",
+          "pos": "20 0 -40",
           "roty": 180
         },
         {
@@ -10822,9 +10818,9 @@
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_FACTION_TRADER_MN_CRATE_PILE_A_NOCOL",
-          "pos": "-20 1 -28",
-          "roty": 269
+          "name": "MOUNTAIN_GREEN_CITY_BANNER_LARGE_A",
+          "pos": "-5 11 -93",
+          "roty": 180
         },
         {
           "name": "MOUNTAIN_GREEN_FILL_CITY_LANTERN_HANGING_A_NO_POINTLIGHT",
@@ -10876,18 +10872,18 @@
           "pos": "62 3 -5"
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_BANNER_STANDING_LARGE_A",
-          "pos": "4 0 91",
-          "roty": 270
-        },
-        {
           "name": "MOUNTAIN_GREEN_FILL_CITY_TORCH_B_SMALL",
           "pos": "-3 3 -76",
           "roty": 90
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_CITY_TORCH_B_SMALL",
-          "pos": "3 3 -76",
+          "name": "MOUNTAIN_GREEN_CITY_FACTION_TRADER_MN_CRATE_PILE_A_NOCOL",
+          "pos": "-20 1 -28",
+          "roty": 269
+        },
+        {
+          "name": "MOUNTAIN_GREEN_FILL_CITY_TORCH_B",
+          "pos": "15.5 4 95.5",
           "roty": 270
         },
         {
@@ -10936,8 +10932,17 @@
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_CITY_TORCH_B",
-          "pos": "15.5 4 95.5",
+          "name": "MOUNTAIN_GREEN_FILL_RUIN_WALL_SMALL_STRAIGHT_A",
+          "pos": "0.5 20 -136.5"
+        },
+        {
+          "name": "MOUNTAIN_GREEN_FILL_CITY_TORCH_B_SMALL",
+          "pos": "3 3 -76",
+          "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_BANNER_STANDING_LARGE_A",
+          "pos": "4 0 91",
           "roty": 270
         },
         {
@@ -10948,16 +10953,6 @@
         {
           "name": "MOUNTAIN_GREEN_FILL_CITY_LANTERN_HANGING_A_NO_POINTLIGHT",
           "pos": "-31 4 6",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_CITY_FACTION_TRADER_MAP_BOARD",
-          "pos": "-14 1 -38",
-          "roty": 85
-        },
-        {
-          "name": "MOUNTAIN_GREEN_CITY_BANNER_LARGE_A",
-          "pos": "-5 11 -93",
           "roty": 180
         },
         {
@@ -11080,14 +11075,14 @@
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_RUIN_WALL_SMALL_STRAIGHT_A",
-          "pos": "7.5 20 -133.5",
-          "roty": 90
+          "name": "MOUNTAIN_GREEN_CITY_FACTION_TRADER_MAP_BOARD",
+          "pos": "-14 1 -38",
+          "roty": 85
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
-          "pos": "170 14 30",
-          "rot": "19 180 0"
+          "name": "MOUNTAIN_GREEN_CITY_MARKETPLACE_TOWER_A",
+          "pos": "-64 -12 45",
+          "roty": 17
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
@@ -11098,6 +11093,11 @@
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
           "pos": "170 14 -30",
           "rot": "19 0 0"
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A",
+          "pos": "40 -16 20",
+          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_ROAD_STREET_PLACE_A_OBJECT",
@@ -11761,11 +11761,6 @@
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_B",
-          "pos": "165 12 25",
-          "roty": 270
-        },
-        {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_B",
           "pos": "175 16 -34",
           "roty": 90
         },
@@ -11815,19 +11810,19 @@
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_B",
-          "pos": "175 16 34",
-          "roty": 90
-        },
-        {
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_A",
           "pos": "60 12 -10",
           "roty": 90
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
-          "pos": "50 12 -10",
-          "roty": 90
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_B",
+          "pos": "165 12 25",
+          "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
+          "pos": "60 -16 -20",
+          "roty": 270
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
@@ -11877,8 +11872,18 @@
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
-          "pos": "60 -16 -20",
-          "roty": 270
+          "pos": "20 -16 -70",
+          "roty": 180
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
+          "pos": "50 12 -10",
+          "roty": 90
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_B",
+          "pos": "175 16 34",
+          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_A",
@@ -11889,16 +11894,6 @@
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_A",
           "pos": "165 16 -34",
           "roty": 270
-        },
-        {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_A",
-          "pos": "175 12 25",
-          "roty": 90
-        },
-        {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A",
-          "pos": "40 -16 20",
-          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_FILL_RUIN_WALL_SMALL_STRAIGHT_A",
@@ -12041,14 +12036,9 @@
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
-          "pos": "20 -16 -70",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL",
-          "pos": "1 -1 -84.5",
-          "roty": 270
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_PILAR_A",
+          "pos": "175 12 25",
+          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_A",
@@ -12056,9 +12046,19 @@
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
-          "pos": "0 12 -60",
-          "roty": 180
+          "name": "MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL",
+          "pos": "1 2 -84.5",
+          "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
+          "pos": "-10 -16 -70",
+          "roty": 0
+        },
+        {
+          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
+          "pos": "-10 -16 -60",
+          "roty": 0
         },
         {
           "name": "MOUNTAIN_GREEN_CASTLE_GROUND_A",
@@ -12197,11 +12197,6 @@
           "pos": "-60 -12 60"
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
-          "pos": "-10 -16 -60",
-          "roty": 0
-        },
-        {
           "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_A",
           "pos": "0 12 -90",
           "roty": 180
@@ -12266,6 +12261,11 @@
           "roty": 270
         },
         {
+          "name": "MOUNTAIN_GREEN_PLATEAU_8M_CORNER",
+          "pos": "-170 20 -120",
+          "roty": 90
+        },
+        {
           "name": "MOUNTAIN_GREEN_CASTLE_GATE_MAIN_SMALL_C",
           "pos": "-70 -24 96.5",
           "roty": 90,
@@ -12320,27 +12320,23 @@
           "rot": "0.05 269.91 0.01"
         },
         {
-          "name": "MOUNTAIN_GREEN_CITY_WALL_STRAIGHT_A_NOCOL",
-          "pos": "-10 -16 -70",
-          "roty": 0
+          "name": "MOUNTAIN_GREEN_CITY_WALL_RAILING_STRAIGHT_B",
+          "pos": "0 12 -60",
+          "roty": 180
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_GRASS_THIN_A",
           "pos": "249.5 36 91.5"
         },
         {
-          "name": "ARENA_ENTRANCE_POINT_LIGHT_A",
-          "pos": "-80.43 -7.64 30.43",
-          "pointlight": {
-            "range": 10,
-            "intensity": 4,
-            "color": "1 0.5137255 0.1411765"
-          }
+          "name": "MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL",
+          "pos": "1 -1 -84.5",
+          "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL",
-          "pos": "0 -9 -113.5",
-          "roty": 270
+          "name": "ARENA_ENTRANCE_VANITY_BANNERS_A",
+          "pos": "-85 -11 32",
+          "roty": 248
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_C",
@@ -13371,11 +13367,6 @@
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "-139.62 20 -158.75",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
           "pos": "-168 20 -161",
           "roty": 35
         },
@@ -13426,18 +13417,18 @@
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "-131.15 20 -101.92",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
           "pos": "-121 12 -32",
           "roty": 125
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "86.76 12 -98.51",
+          "pos": "-139.62 20 -158.75",
           "roty": 180
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
+          "pos": "-118.75 12 -60.38",
+          "roty": 270
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_C",
@@ -13485,29 +13476,29 @@
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "-118.75 12 -60.38",
-          "roty": 270
-        },
-        {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A",
           "pos": "90 12 -125",
           "roty": 270
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "-219.19 36 -170.58",
+          "pos": "86.76 12 -98.51",
+          "roty": 180
+        },
+        {
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A",
+          "pos": "90 20 -175",
+          "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
+          "pos": "-131.15 20 -101.92",
           "roty": 180
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "-160.49 28 -191.33",
+          "pos": "-201.2 28 -88.93",
           "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
-          "pos": "-113 20 -153",
-          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
@@ -13557,18 +13548,18 @@
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
-          "pos": "-201.2 28 -88.93",
-          "roty": 180
-        },
-        {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
           "pos": "132.06 12 27.74",
           "roty": 180
         },
         {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
+          "pos": "-219.19 36 -170.58",
+          "roty": 180
+        },
+        {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
-          "pos": "90.55 12 103.82",
+          "pos": "121.18 12 80.46",
           "roty": 180
         },
         {
@@ -13621,14 +13612,14 @@
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
-          "pos": "121.18 12 80.46",
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_B",
+          "pos": "-160.49 28 -191.33",
           "roty": 180
         },
         {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A",
-          "pos": "90 20 -175",
-          "roty": 270
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
+          "pos": "90.55 12 103.82",
+          "roty": 180
         },
         {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A",
@@ -13641,9 +13632,9 @@
           "roty": 270
         },
         {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_CORNER_LEFT_A",
-          "pos": "-135 12 -55",
-          "roty": 270
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A",
+          "pos": "215 28 -150",
+          "roty": 180
         },
         {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_CORNER_RIGHT_A",
@@ -13695,18 +13686,19 @@
           "pos": "5 20 -136.5"
         },
         {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_CORNER_LEFT_A",
-          "pos": "205 20 45",
-          "roty": 90
-        },
-        {
           "name": "MOUNTAIN_GREEN_FILL_CITY_LANTERN_A",
           "pos": "-80.5 -12 24.5",
           "roty": 210
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_STORAGE_BARREL_OPEN_LARGE_A",
-          "pos": "-76.5 -12 31.5"
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_CORNER_LEFT_A",
+          "pos": "-135 12 -55",
+          "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_FILL_CITY_LANTERN_A",
+          "pos": "-74.5 -12 30.5",
+          "roty": 240
         },
         {
           "name": "MOUNTAIN_GREEN_FILL_STORAGE_BARREL_WEAPONS_A",
@@ -13758,9 +13750,18 @@
           "rot": "0 147 20"
         },
         {
-          "name": "MOUNTAIN_GREEN_FILL_CITY_LANTERN_A",
-          "pos": "-74.5 -12 30.5",
-          "roty": 240
+          "name": "MOUNTAIN_GREEN_CASTLE_GATE_SMALL_A_NOCOL",
+          "pos": "0 -9 -113.5",
+          "roty": 270
+        },
+        {
+          "name": "MOUNTAIN_GREEN_FILL_STORAGE_BARREL_OPEN_LARGE_A",
+          "pos": "-76.5 -12 31.5"
+        },
+        {
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_TO_PLATEAU_8M_CORNER_LEFT_A",
+          "pos": "205 20 45",
+          "roty": 90
         },
         {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_20X20_STRAIGHT_A",
@@ -13770,16 +13771,6 @@
         {
           "name": "MOUNTAIN_GREEN_HILL_8M_BASE_20X20_STRAIGHT_A",
           "pos": "175 20 -115",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_20X20_STRAIGHT_A",
-          "pos": "205 20 85",
-          "roty": 180
-        },
-        {
-          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_10X20_STRAIGHT_A",
-          "pos": "215 28 -150",
           "roty": 180
         },
         {
@@ -13896,6 +13887,16 @@
           "roty": 180
         },
         {
+          "name": "MOUNTAIN_GREEN_HILL_8M_BASE_20X20_STRAIGHT_A",
+          "pos": "205 20 85",
+          "roty": 180
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
+          "pos": "-113 20 -153",
+          "roty": 90
+        },
+        {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
           "pos": "-142 20 -112",
           "roty": 180
@@ -13909,11 +13910,6 @@
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
           "pos": "-173 20 -152",
           "roty": 90
-        },
-        {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
-          "pos": "-171.33 28 -201.41",
-          "roty": 180
         },
         {
           "name": "MOUNTAIN_GREEN_FILL_RUIN_COLUMN_BROKEN_C",
@@ -14184,9 +14180,13 @@
           "scale": "1.791704 1.791703 1.791703"
         },
         {
-          "name": "ARENA_ENTRANCE_VANITY_BANNERS_A",
-          "pos": "-85 -11 32",
-          "roty": 248
+          "name": "ARENA_ENTRANCE_POINT_LIGHT_A",
+          "pos": "-80.43 -7.64 30.43",
+          "pointlight": {
+            "range": 10,
+            "intensity": 4,
+            "color": "1 0.5137255 0.1411765"
+          }
         },
         {
           "name": "MOUNTAIN_GREEN_FILL_CITY_SIGN_PVP_AREA_A_ANIM",
@@ -14197,11 +14197,6 @@
           "name": "MOUNTAIN_GREEN_T1_DECO_TREE_PLAIN_E",
           "pos": "-54.5 -56 112.5",
           "roty": 270
-        },
-        {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
-          "pos": "-219 36 -161",
-          "roty": 156.79
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
@@ -14255,18 +14250,18 @@
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
-          "pos": "-189 28 -101",
-          "roty": 140.88
-        },
-        {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
           "pos": "119 12 59",
           "roty": 222.32
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
-          "pos": "79 20 -141",
-          "roty": 224
+          "pos": "-219 36 -161",
+          "roty": 156.79
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
+          "pos": "189.23 20 59.19",
+          "roty": 238
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
@@ -14319,9 +14314,19 @@
           "roty": 180
         },
         {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_SMALL_A",
+          "pos": "-171.33 28 -201.41",
+          "roty": 180
+        },
+        {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
-          "pos": "189.23 20 59.19",
-          "roty": 238
+          "pos": "79 20 -141",
+          "roty": 224
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
+          "pos": "-189 28 -101",
+          "roty": 140.88
         },
         {
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
@@ -14332,11 +14337,6 @@
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
           "pos": "191 28 -140",
           "roty": 58
-        },
-        {
-          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
-          "pos": "211 28 -101",
-          "roty": 148
         },
         {
           "name": "MOUNTAIN_GREEN_T1_DECO_TREE_PLAIN_E",
@@ -14423,11 +14423,6 @@
           "roty": 90
         },
         {
-          "name": "MOUNTAIN_GREEN_PLATEAU_8M_CORNER_OBJECT",
-          "pos": "-170 20 -120",
-          "roty": 90
-        },
-        {
           "name": "MOUNTAIN_GREEN_ROAD_STREET_STRAIGHT_C",
           "pos": "90 12 30",
           "roty": 90
@@ -14454,6 +14449,11 @@
           "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
           "pos": "-181 28 -69",
           "roty": 300
+        },
+        {
+          "name": "MOUNTAIN_GREEN_VEG_SNOW_PATCH_A",
+          "pos": "211 28 -101",
+          "roty": 148
         },
         {
           "name": "MOUNTAIN_GREEN_T1_DECO_TREE_PLAIN_E",

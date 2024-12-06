@@ -2042,11 +2042,6 @@
                 "roty": 270
               },
               {
-                "name": "SWAMP_RED_MOR_STOCKADE_STRAIGHT_SMALL_A",
-                "pos": "23.5 -1 -14.5",
-                "rot": "359 34 29"
-              },
-              {
                 "name": "SWAMP_RED_T1_BUSH_B",
                 "pos": "-16 1 -20",
                 "roty": 180
@@ -2061,6 +2056,11 @@
                 "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_C",
                 "pos": "-8.75 1 -16",
                 "roty": 232
+              },
+              {
+                "name": "SWAMP_RED_MOR_STOCKADE_STRAIGHT_SMALL_A",
+                "pos": "23.5 -1 -14.5",
+                "rot": "359 11 29"
               },
               {
                 "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_E",

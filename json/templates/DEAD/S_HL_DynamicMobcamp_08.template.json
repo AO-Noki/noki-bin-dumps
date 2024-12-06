@@ -1775,9 +1775,9 @@
                 "pos": "23.94 0 -9.41"
               },
               {
-                "name": "HIGHLAND_DEAD_MOR_STOCKADE_STRAIGHT_SMALL_A",
-                "pos": "23.5 -1 -14.5",
-                "rot": "359 34 29"
+                "name": "HIGHLAND_DEAD_MOR_STOCKADE_STRAIGHT_D",
+                "pos": "22.5 0 -10",
+                "rot": "0 182 330"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
@@ -1841,9 +1841,9 @@
                 "pos": "-5.02 0 23.68"
               },
               {
-                "name": "HIGHLAND_DEAD_MOR_STOCKADE_STRAIGHT_D",
-                "pos": "22.5 0 -10",
-                "rot": "0 182 330"
+                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SPIKES_A",
+                "pos": "1 6 -13",
+                "roty": 180
               },
               {
                 "name": "HIGHLAND_DEAD_MOR_STANDARD_A",
@@ -2030,9 +2030,9 @@
                 "roty": 186
               },
               {
-                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SPIKES_A",
-                "pos": "1 6 -13",
-                "roty": 180
+                "name": "HIGHLAND_DEAD_MOR_STOCKADE_STRAIGHT_SMALL_A",
+                "pos": "23.5 -1 -14.5",
+                "rot": "359 11 29"
               },
               {
                 "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A_NOCOL",

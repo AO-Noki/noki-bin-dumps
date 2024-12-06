@@ -453,14 +453,14 @@
                 "roty": 270
               },
               {
-                "name": "MOUNTAIN_GREEN_VEG_SNOW_GRASS_B",
-                "pos": "7.15 8 -8.71",
+                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "18 -1 -17",
                 "roty": 270
               },
               {
-                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
-                "pos": "-19.5 0 12.5",
-                "roty": 180
+                "name": "MOUNTAIN_GREEN_VEG_SNOW_GRASS_B",
+                "pos": "7.15 8 -8.71",
+                "roty": 270
               },
               {
                 "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
@@ -522,20 +522,24 @@
                 "roty": 270
               },
               {
-                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "18 -1 -17",
-                "roty": 270
+                "name": "MOUNTAIN_GREEN_GROUND_PATCH_TO_ROAD_CIRCLE_A",
+                "pos": "3 8 1",
+                "scale": "3.094973 1 2.370198"
+              },
+              {
+                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
+                "pos": "-19.5 0 12.5",
+                "roty": 180
+              },
+              {
+                "name": "MOUNTAIN_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_C",
+                "pos": "19 0 16"
               },
               {
                 "name": "MOUNTAIN_GREEN_T1_TREE_EVERGREEN_C",
                 "pos": "12.5 8 -10.5",
                 "rot": "2 175 358",
                 "scale": "1 0.8154497 1"
-              },
-              {
-                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "12 0 17",
-                "roty": 180
               },
               {
                 "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
@@ -607,9 +611,9 @@
                 "scale": "1 1.034 1"
               },
               {
-                "name": "MOUNTAIN_GREEN_GROUND_PATCH_TO_ROAD_CIRCLE_A",
-                "pos": "3 8 1",
-                "scale": "3.094973 1 2.370198"
+                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "12 0 17",
+                "roty": 180
               },
               {
                 "name": "MOUNTAIN_GREEN_PLATEAU_ROCK_DEBRIS_C",
@@ -687,7 +691,8 @@
               },
               {
                 "name": "MOUNTAIN_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_C",
-                "pos": "19 0 16"
+                "pos": "-3 8 -10",
+                "rot": "32 273 1"
               }
             ]
           },
@@ -2017,6 +2022,31 @@
                 "pos": "-6 8 9"
               },
               {
+                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
+                "pos": "-10.5 1 -19.5",
+                "roty": 90
+              },
+              {
+                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "8 1 -19",
+                "roty": 270
+              },
+              {
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-6 8 14",
+                "roty": 195
+              },
+              {
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_CORNER_A",
+                "pos": "11 8 -11",
+                "roty": 90
+              },
+              {
+                "name": "MOUNTAIN_GREEN_T1_DECO_TREE_EVERGREEN_C",
+                "pos": "13.5 9 -16.5",
+                "rot": "353 354 4"
+              },
+              {
                 "name": "MOUNTAIN_GREEN_FILL_RUIN_TOWER_ROUND_B",
                 "pos": "-1 -11 -14",
                 "roty": 26
@@ -2052,11 +2082,6 @@
                 "roty": 90
               },
               {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-2 4 -11",
-                "rot": "39 194 9"
-              },
-              {
                 "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
                 "pos": "6 8 14"
               },
@@ -2071,9 +2096,8 @@
                 "scale": "1 0.9929073 1"
               },
               {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-10.21 6.27 0.16",
-                "rot": "23 315 11"
+                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
+                "pos": "-3.5 8 -7.5"
               },
               {
                 "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
@@ -2081,34 +2105,49 @@
                 "roty": 270
               },
               {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
+                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
+                "pos": "4.5 8 11.5",
+                "roty": 237
+              },
+              {
+                "name": "MOUNTAIN_GREEN_T1_DECO_TREE_UNIVERSAL_SLIM_A",
+                "pos": "16.5 8 -7.5",
+                "roty": 285
+              },
+              {
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-10.21 6.27 0.16",
+                "rot": "23 315 11"
+              },
+              {
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-2 4 -11",
+                "rot": "39 194 9"
+              },
+              {
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_C",
+                "pos": "-6 2 -14",
+                "rot": "348 93 333"
+              },
+              {
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-15 2 -15",
+                "roty": 195
+              },
+              {
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
                 "pos": "-4 3 -11",
                 "rot": "39 194 9"
               },
               {
-                "name": "MOUNTAIN_GREEN_T1_DECO_TREE_EVERGREEN_C",
-                "pos": "6 8 -17",
-                "rot": "354.47 167.99 358.43"
+                "name": "MOUNTAIN_GREEN_UND_BOOKSHELF_B_NOBLEND",
+                "pos": "10 5 -13",
+                "rot": "8 271 22"
               },
               {
-                "name": "MOUNTAIN_GREEN_T1_DECO_TREE_EVERGREEN_C",
-                "pos": "13.5 9 -16.5",
-                "rot": "353 354 4"
-              },
-              {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-14 0 15",
-                "roty": 30
-              },
-              {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_CORNER_A",
-                "pos": "11 8 -11",
-                "roty": 90
-              },
-              {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
-                "pos": "-6 8 14",
-                "roty": 195
+                "name": "MOUNTAIN_GREEN_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
+                "pos": "5 -4 -21",
+                "rot": "359 92 9"
               },
               {
                 "name": "MOUNTAIN_GREEN_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
@@ -2151,57 +2190,23 @@
               },
               {
                 "name": "MOUNTAIN_GREEN_T1_DECO_TREE_UNIVERSAL_SLIM_A",
-                "pos": "16.5 8 -7.5",
-                "roty": 285
-              },
-              {
-                "name": "MOUNTAIN_GREEN_T1_DECO_TREE_UNIVERSAL_SLIM_A",
                 "pos": "-10.5 8 7.5",
                 "roty": 285
               },
               {
-                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
-                "pos": "4.5 8 11.5",
-                "roty": 237
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
+                "pos": "-14 0 15",
+                "roty": 30
               },
               {
-                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
-                "pos": "-3.5 8 -7.5"
-              },
-              {
-                "name": "MOUNTAIN_GREEN_T1_TREE_SLIM_A",
-                "pos": "-10.5 1 -19.5",
-                "roty": 90
+                "name": "MOUNTAIN_GREEN_T1_DECO_TREE_EVERGREEN_C",
+                "pos": "6 8 -17",
+                "rot": "354.47 167.99 358.43"
               },
               {
                 "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "8 1 -19",
-                "roty": 270
-              },
-              {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_C_NOCOL",
-                "pos": "-13 4 2",
-                "rot": "30 315 15"
-              },
-              {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-15 2 -15",
-                "roty": 195
-              },
-              {
-                "name": "MOUNTAIN_GREEN_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
-                "pos": "5 -4 -21",
-                "rot": "359 92 9"
-              },
-              {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_CORNER_A",
-                "pos": "20 0 20",
+                "pos": "18 0 10",
                 "roty": 180
-              },
-              {
-                "name": "MOUNTAIN_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B",
-                "pos": "21 0 16",
-                "roty": 90
               },
               {
                 "name": "MOUNTAIN_GREEN_FILL_RUIN_WALL_B",
@@ -2283,19 +2288,25 @@
                 "roty": 270
               },
               {
-                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "18 0 10",
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_CORNER_A",
+                "pos": "20 0 20",
                 "roty": 180
               },
               {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_C_NOCOL",
-                "pos": "-6 2 -14",
-                "rot": "348 93 333"
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_TOWER_ROUND_B_BLEND",
+                "pos": "-1 -1 -14",
+                "roty": 30
               },
               {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_WALL_INNERCORNER_ROUNDED_A",
-                "pos": "1 2 -11",
-                "roty": 85
+                "name": "MOUNTAIN_GREEN_FILL_GROUND_COBBLESTONES_PATCH_SMALL_A",
+                "pos": "8 8 8",
+                "roty": 270,
+                "scale": "1.2 1 1.2"
+              },
+              {
+                "name": "MOUNTAIN_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B",
+                "pos": "21 0 16",
+                "roty": 90
               },
               {
                 "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
@@ -2332,6 +2343,11 @@
               },
               {
                 "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "18 0 -8",
+                "roty": 180
+              },
+              {
+                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
                 "pos": "19 0 8",
                 "roty": 270
               },
@@ -2347,12 +2363,7 @@
               {
                 "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_B_NOCOL",
                 "pos": "0 4 -12",
-                "rot": "305.34 355.96 50.03"
-              },
-              {
-                "name": "MOUNTAIN_GREEN_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "18 0 -8",
-                "roty": 180
+                "rot": "305 356 50"
               },
               {
                 "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_A",
@@ -2365,20 +2376,14 @@
                 "roty": 90
               },
               {
-                "name": "MOUNTAIN_GREEN_FILL_GROUND_COBBLESTONES_PATCH_SMALL_A",
-                "pos": "8 8 8",
-                "roty": 270,
-                "scale": "1.2 1 1.2"
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_WALL_INNERCORNER_ROUNDED_A",
+                "pos": "1 2 -11",
+                "roty": 85
               },
               {
-                "name": "MOUNTAIN_GREEN_FILL_RUIN_TOWER_ROUND_B_BLEND",
-                "pos": "-1 -1 -14",
-                "roty": 30
-              },
-              {
-                "name": "MOUNTAIN_GREEN_UND_BOOKSHELF_B_NOBLEND",
-                "pos": "10 5 -13",
-                "rot": "8 271 22"
+                "name": "MOUNTAIN_GREEN_FILL_RUIN_DEBRIS_C",
+                "pos": "-13 4 2",
+                "rot": "30 315 15"
               }
             ]
           }

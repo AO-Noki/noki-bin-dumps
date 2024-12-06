@@ -1913,14 +1913,14 @@
                 "roty": 90
               },
               {
-                "name": "STEPPE_GREEN_FILL_STORAGE_BARRELS_LARGE_A",
-                "pos": "7 8 13",
-                "roty": 63
-              },
-              {
                 "name": "STEPPE_GREEN_MOR_STOCKADE_STRAIGHT_C",
                 "pos": "7 8 -15.5",
                 "roty": 90
+              },
+              {
+                "name": "STEPPE_GREEN_FILL_STORAGE_BARRELS_LARGE_A",
+                "pos": "7 8 13",
+                "roty": 63
               },
               {
                 "name": "STEPPE_GREEN_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL",
@@ -1954,11 +1954,6 @@
                 "roty": 90
               },
               {
-                "name": "STEPPE_GREEN_MOR_STOCKADE_STRAIGHT_SMALL_A",
-                "pos": "23.5 -1 -14.5",
-                "rot": "359 34 29"
-              },
-              {
                 "name": "STEPPE_GREEN_T1_BUSH_B",
                 "pos": "-16 1 -20",
                 "roty": 180
@@ -1973,6 +1968,11 @@
                 "name": "STEPPE_GREEN_PLATEAU_ROCK_DEBRIS_C",
                 "pos": "-8.75 1 -16",
                 "roty": 232
+              },
+              {
+                "name": "STEPPE_GREEN_MOR_STOCKADE_STRAIGHT_SMALL_A",
+                "pos": "23.5 -1 -14.5",
+                "rot": "359 11 29"
               },
               {
                 "name": "STEPPE_GREEN_PLATEAU_ROCK_DEBRIS_SMALL_E",

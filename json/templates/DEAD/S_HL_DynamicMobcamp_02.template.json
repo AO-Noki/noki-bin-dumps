@@ -388,6 +388,11 @@
                 "rot": "32 273 1"
               },
               {
+                "name": "HIGHLAND_DEAD_ROCK_SPIKES_LARGE_B_NOCOL",
+                "pos": "14 0 -16",
+                "roty": 282
+              },
+              {
                 "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
                 "pos": "15 -1 -17"
               },
@@ -422,19 +427,19 @@
                 "roty": 232
               },
               {
+                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_C",
+                "pos": "7 8 -15",
+                "roty": 85
+              },
+              {
                 "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_FLAT_B",
                 "pos": "-7 8 -1",
                 "roty": 285
               },
               {
-                "name": "HIGHLAND_DEAD_ROCK_SPIKES_LARGE_B_NOCOL",
-                "pos": "14 0 -16",
-                "roty": 282
-              },
-              {
-                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_E",
-                "pos": "14 8 8",
-                "roty": 45
+                "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "18 0 10",
+                "roty": 180
               },
               {
                 "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_C",
@@ -466,27 +471,28 @@
                 "pos": "-10.5 0 -24.5"
               },
               {
+                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_E",
+                "pos": "14 8 8",
+                "roty": 45
+              },
+              {
                 "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
                 "pos": "-12.5 0 23.5"
               },
               {
                 "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "18 0 10",
+                "pos": "12 0 17",
                 "roty": 180
               },
               {
-                "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
-                "pos": "-0.5 0 -22.5"
+                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_C",
+                "pos": "6 1 -16",
+                "roty": 232
               },
               {
-                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_C",
-                "pos": "7 8 -15",
-                "roty": 85
-              },
-              {
-                "name": "HIGHLAND_DEAD_ROCK_SPIKES_LARGE_A_NOCOL",
-                "pos": "0 -1 -15",
-                "rot": "326 25 17"
+                "name": "HIGHLAND_DEAD_GROUND_PATCH_TO_ROAD_CIRCLE_A",
+                "pos": "3 8 1",
+                "scale": "3.094973 1 2.370198"
               },
               {
                 "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_A_NOCOL_NORAMP",
@@ -522,17 +528,18 @@
                 "pos": "11 0 -23"
               },
               {
+                "name": "HIGHLAND_DEAD_ROCK_SPIKES_LARGE_A_NOCOL",
+                "pos": "0 -1 -15",
+                "rot": "326 25 17"
+              },
+              {
                 "name": "HIGHLAND_DEAD_T1_BUSH_B",
                 "pos": "23.5 0 13.5"
               },
               {
-                "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "12 0 17",
-                "roty": 180
-              },
-              {
                 "name": "HIGHLAND_DEAD_T1_BUSH_B",
-                "pos": "-9.5 0 23.5"
+                "pos": "-4.5 8 -7.5",
+                "roty": 270
               },
               {
                 "name": "HIGHLAND_DEAD_T1_BUSH_B",
@@ -569,27 +576,20 @@
                 "scale": "1 0.8154497 1"
               },
               {
-                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_C",
-                "pos": "6 1 -16",
-                "roty": 232
-              },
-              {
                 "name": "HIGHLAND_DEAD_T1_BUSH_B",
-                "pos": "-4.5 8 -7.5",
-                "roty": 270
+                "pos": "-9.5 0 23.5"
               },
               {
-                "name": "HIGHLAND_DEAD_GROUND_PATCH_TO_ROAD_CIRCLE_A",
-                "pos": "3 8 1",
-                "scale": "3.094973 1 2.370198"
+                "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
+                "pos": "-0.5 0 -22.5"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
                 "pos": "24.5 0 -17.5"
               },
               {
-                "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
-                "pos": "23.5 0 23.5"
+                "name": "HIGHLAND_DEAD_VEG_GRASS_B_SMALL",
+                "pos": "23 0 17"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
@@ -680,17 +680,21 @@
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_GRASS_B_SMALL",
-                "pos": "23 0 17"
+                "pos": "-5 8 14"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_GRASS_B_SMALL",
-                "pos": "-5 8 14"
+                "pos": "12 8 -11"
               },
               {
                 "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
                 "pos": "9 6 -17",
                 "rot": "5 133 356",
                 "scale": "1 1.034 1"
+              },
+              {
+                "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
+                "pos": "23.5 0 23.5"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_LAVENDER_B",
@@ -725,12 +729,12 @@
                 "pos": "-12.5 0 19.5"
               },
               {
-                "name": "HIGHLAND_DEAD_VEG_GRASS_B_SMALL",
-                "pos": "12 8 -11"
+                "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
+                "pos": "-2.5 0 -23.5"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
-                "pos": "-2.5 0 -23.5"
+                "pos": "23.5 0 -8.5"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
@@ -767,12 +771,13 @@
                 "scale": "1 1.1045 1"
               },
               {
-                "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
-                "pos": "23.5 0 -8.5"
+                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_C",
+                "pos": "19 0 16"
               },
               {
                 "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_C",
-                "pos": "19 0 16"
+                "pos": "-3 8 -10",
+                "rot": "32 273 1"
               }
             ]
           },
@@ -899,7 +904,7 @@
               {
                 "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_CHAMPION_MINIBOSS_MELEE",
                 "pos": "6.45 8 -6.17",
-                "roty": 342.09,
+                "roty": 342,
                 "mobspawnpoint": {
                   "behavior": "GUARD",
                   "spawnbehavior": "DYNAMIC_CAMP_MORGANA_CHAMPION_MINIBOSS_MELEE_SOLO"
@@ -2213,6 +2218,25 @@
                 "pos": "-6 8 9"
               },
               {
+                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
+                "pos": "16 -3 7"
+              },
+              {
+                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
+                "pos": "16 -4 13",
+                "roty": 180
+              },
+              {
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
+                "pos": "-14 2 -16",
+                "roty": 90
+              },
+              {
+                "name": "HIGHLAND_DEAD_T1_BUSH_A",
+                "pos": "-14.5 0 -21.5",
+                "rot": "3 249 7"
+              },
+              {
                 "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
                 "pos": "18 0 -8",
                 "roty": 180
@@ -2228,14 +2252,14 @@
                 "roty": 270
               },
               {
-                "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "-8 0 18",
-                "roty": 180
+                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
+                "pos": "17 -4 -17",
+                "rot": "359 27 9"
               },
               {
                 "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "8 0 18",
-                "roty": 90
+                "pos": "-8 0 18",
+                "roty": 180
               },
               {
                 "name": "HIGHLAND_DEAD_T1_DECO_BUSH_B",
@@ -2248,14 +2272,13 @@
                 "roty": 30
               },
               {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-14 0 15",
-                "roty": 30
-              },
-              {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_TOWER_ROUND_B",
                 "pos": "-1 -11 -14",
                 "roty": 26
+              },
+              {
+                "name": "HIGHLAND_DEAD_VEG_FLOWERS_WHITE_SMALL_A",
+                "pos": "-22.5 0 -21.5"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_FLOWERS_WHITE_SMALL_A",
@@ -2271,50 +2294,66 @@
                 "pos": "-22.5 0 21.5"
               },
               {
+                "name": "HIGHLAND_DEAD_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "8 0 18",
+                "roty": 90
+              },
+              {
                 "name": "HIGHLAND_DEAD_VEG_FLOWERS_WHITE_SMALL_A",
                 "pos": "16.5 0 -21.5"
               },
               {
-                "name": "HIGHLAND_DEAD_VEG_FLOWERS_WHITE_SMALL_A",
-                "pos": "-12.5 0 22.5",
-                "roty": 214
+                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_A_NORAMP",
+                "pos": "10 4 17",
+                "rot": "6 198.79 357.99"
               },
               {
-                "name": "HIGHLAND_DEAD_T1_DECO_BUSH_B",
-                "pos": "-10.5 8 7.5",
-                "roty": 285
+                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
+                "pos": "9 -3 -18",
+                "rot": "359 92 9"
               },
               {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_CORNER_A",
-                "pos": "20 0 20",
-                "roty": 180
-              },
-              {
-                "name": "HIGHLAND_DEAD_VEG_FLOWERS_WHITE_SMALL_A",
-                "pos": "-22.5 0 -21.5"
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_C",
+                "pos": "-13 4 2",
+                "rot": "30 315 15"
               },
               {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
-                "pos": "-6 8 14",
-                "roty": 195
-              },
-              {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A_NOCOL",
                 "pos": "-10.21 6.27 0.16",
                 "rot": "23 315 11"
               },
               {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
-                "pos": "-14 2 -16",
-                "roty": 90
+                "pos": "-4 3 -11",
+                "rot": "39 194 9"
+              },
+              {
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
+                "pos": "-2 4 -11",
+                "rot": "39 194 9"
+              },
+              {
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
+                "pos": "-14 0 15",
+                "roty": 30
+              },
+              {
+                "name": "HIGHLAND_DEAD_UND_BOOKSHELF_B_NOBLEND",
+                "pos": "10 5 -13",
+                "rot": "8 271 22"
+              },
+              {
+                "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
+                "pos": "2.5 8 -14.5"
+              },
+              {
+                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
+                "pos": "10 -4 -17",
+                "rot": "359 92 9"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_GRASS_B_SMALL",
                 "pos": "20 0 -16"
-              },
-              {
-                "name": "HIGHLAND_DEAD_VEG_GRASS_B_SMALL",
-                "pos": "15 0 21"
               },
               {
                 "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
@@ -2338,48 +2377,9 @@
                 "roty": 325
               },
               {
-                "name": "HIGHLAND_DEAD_T1_BUSH_A",
-                "pos": "-14.5 0 -21.5",
-                "rot": "3 249 7"
-              },
-              {
                 "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
                 "pos": "5 -4 -21",
                 "rot": "359 92 9"
-              },
-              {
-                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
-                "pos": "9 -3 -18",
-                "rot": "359 92 9"
-              },
-              {
-                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
-                "pos": "10 -4 -17",
-                "rot": "359 92 9"
-              },
-              {
-                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_A_NORAMP",
-                "pos": "10 4 17",
-                "rot": "6 198.79 357.99"
-              },
-              {
-                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
-                "pos": "17 -4 -17",
-                "rot": "359 27 9"
-              },
-              {
-                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
-                "pos": "16 -3 7"
-              },
-              {
-                "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
-                "pos": "16 -4 13",
-                "roty": 180
-              },
-              {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-15 2 -15",
-                "roty": 195
               },
               {
                 "name": "HIGHLAND_DEAD_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
@@ -2387,18 +2387,42 @@
                 "rot": "358 109 354"
               },
               {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
-                "pos": "6 8 14"
+                "name": "HIGHLAND_DEAD_VEG_GRASS_B_SMALL",
+                "pos": "15 0 21"
+              },
+              {
+                "name": "HIGHLAND_DEAD_VEG_FLOWERS_WHITE_SMALL_A",
+                "pos": "-12.5 0 22.5",
+                "roty": 214
+              },
+              {
+                "name": "HIGHLAND_DEAD_T1_DECO_BUSH_B",
+                "pos": "-10.5 8 7.5",
+                "roty": 285
               },
               {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_CORNER_A",
-                "pos": "8 8 -12",
+                "pos": "20 0 20",
                 "roty": 180
               },
               {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_WALL_C",
-                "pos": "15 6 -9",
-                "roty": 180
+                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
+                "pos": "-15.5 3 6.5"
+              },
+              {
+                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
+                "pos": "-8 4 -14",
+                "rot": "0 0 2"
+              },
+              {
+                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
+                "pos": "6 8 -17",
+                "rot": "354.47 167.99 358.43"
+              },
+              {
+                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B",
+                "pos": "21 0 16",
+                "roty": 90
               },
               {
                 "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A",
@@ -2414,15 +2438,15 @@
                 "pos": "9 8 -7"
               },
               {
+                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
+                "pos": "8 7 -18",
+                "rot": "354 275 358",
+                "scale": "1 0.9929073 1"
+              },
+              {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_CORNER_A",
                 "pos": "11 8 -11",
                 "roty": 90
-              },
-              {
-                "name": "HIGHLAND_DEAD_UND_BONES_A",
-                "pos": "-3.5 8 6.5",
-                "roty": 199,
-                "scale": "2 2 2"
               },
               {
                 "name": "HIGHLAND_DEAD_UND_CHAIR_A",
@@ -2435,29 +2459,9 @@
                 "roty": 277
               },
               {
-                "name": "HIGHLAND_DEAD_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B",
-                "pos": "21 0 16",
-                "roty": 90
-              },
-              {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_B_NOCOL",
                 "pos": "0 4 -12",
                 "rot": "305.34 355.96 50.03"
-              },
-              {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_C_NOCOL",
-                "pos": "-13 4 2",
-                "rot": "30 315 15"
-              },
-              {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_C_NOCOL",
-                "pos": "-6 2 -14",
-                "rot": "348 93 333"
-              },
-              {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-2 4 -11",
-                "rot": "39 194 9"
               },
               {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_LARGE_A",
@@ -2479,23 +2483,43 @@
                 "pos": "-8 4 6"
               },
               {
-                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-4 3 -11",
-                "rot": "39 194 9"
+                "name": "HIGHLAND_DEAD_UND_BONES_A",
+                "pos": "-3.5 8 6.5",
+                "roty": 199,
+                "scale": "2 2 2"
               },
               {
                 "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
-                "pos": "6 8 -17",
-                "rot": "354.47 167.99 358.43"
+                "pos": "13.5 9 -16.5",
+                "rot": "353 354 4"
               },
               {
-                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
-                "pos": "-8 4 -14",
-                "rot": "0 0 2"
+                "name": "HIGHLAND_DEAD_T1_BUSH_B",
+                "pos": "-3.5 8 -6.5"
               },
               {
-                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
-                "pos": "-15.5 3 6.5"
+                "name": "HIGHLAND_DEAD_T1_BUSH_A",
+                "pos": "-5.5 8 2.5",
+                "roty": 154.56
+              },
+              {
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
+                "pos": "-6 8 14",
+                "roty": 195
+              },
+              {
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
+                "pos": "6 8 14"
+              },
+              {
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_CORNER_A",
+                "pos": "8 8 -12",
+                "roty": 180
+              },
+              {
+                "name": "HIGHLAND_DEAD_FILL_RUIN_WALL_C",
+                "pos": "15 6 -9",
+                "roty": 180
               },
               {
                 "name": "HIGHLAND_DEAD_FILL_RUIN_WALL_INNERCORNER_ROUNDED_A",
@@ -2563,33 +2587,14 @@
                 "roty": 327
               },
               {
-                "name": "HIGHLAND_DEAD_T1_BUSH_A",
-                "pos": "-5.5 8 2.5",
-                "roty": 154.56
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_C",
+                "pos": "-6 2 -14",
+                "rot": "348 93 333"
               },
               {
-                "name": "HIGHLAND_DEAD_T1_BUSH_B",
-                "pos": "-3.5 8 -6.5"
-              },
-              {
-                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
-                "pos": "13.5 9 -16.5",
-                "rot": "353 354 4"
-              },
-              {
-                "name": "HIGHLAND_DEAD_T1_DECO_TREE_EVERGREEN_C",
-                "pos": "8 7 -18",
-                "rot": "354 275 358",
-                "scale": "1 0.9929073 1"
-              },
-              {
-                "name": "HIGHLAND_DEAD_VEG_GRASS_SMALL_A",
-                "pos": "2.5 8 -14.5"
-              },
-              {
-                "name": "HIGHLAND_DEAD_UND_BOOKSHELF_B_NOBLEND",
-                "pos": "10 5 -13",
-                "rot": "8 271 22"
+                "name": "HIGHLAND_DEAD_FILL_RUIN_DEBRIS_A",
+                "pos": "-15 2 -15",
+                "roty": 195
               }
             ]
           }

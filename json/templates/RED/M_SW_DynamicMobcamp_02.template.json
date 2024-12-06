@@ -11793,13 +11793,12 @@
           "pos": "-60 -4 30"
         },
         {
-          "name": "SWAMP_RED_GROUND_PATCH_TO_ROCK_B_NO_VEG",
-          "pos": "-70 0 46",
-          "roty": 270
-        },
-        {
           "name": "SWAMP_RED_GROUND",
           "pos": "20 8 30"
+        },
+        {
+          "name": "SWAMP_RED_GROUND_20x20",
+          "pos": "45 0 65"
         },
         {
           "name": "SWAMP_RED_PLATEAU_8M_DIAGONAL_LARGE_RIGHT_A",
@@ -11856,14 +11855,14 @@
           "roty": 90
         },
         {
-          "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A",
-          "pos": "14 0 63",
-          "roty": 90
-        },
-        {
           "name": "SWAMP_RED_ROCK_CONE_B",
           "pos": "59 0 -45",
           "roty": 270
+        },
+        {
+          "name": "SWAMP_RED_PLATEAU_ROCK_8M_DIAGONAL_A",
+          "pos": "-60 0 -25",
+          "roty": 90
         },
         {
           "name": "SWAMP_RED_PLATEAU_ROCK_4M_C",
@@ -11914,18 +11913,23 @@
           "roty": 270
         },
         {
-          "name": "SWAMP_RED_PLATEAU_ROCK_8M_DIAGONAL_A",
-          "pos": "-60 0 -25",
+          "name": "SWAMP_RED_PLATEAU_ROCK_4M_DIAGONAL_C",
+          "pos": "-64 0 69",
+          "roty": 180
+        },
+        {
+          "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A",
+          "pos": "14 0 63",
           "roty": 90
         },
         {
           "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A",
-          "pos": "49 0 -68",
-          "roty": 90
+          "pos": "65 0 11",
+          "roty": 270
         },
         {
-          "name": "SWAMP_RED_PLATEAU_ROCK_4M_E",
-          "pos": "52 8 -31",
+          "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A",
+          "pos": "49 0 -68",
           "roty": 90
         },
         {
@@ -12045,13 +12049,13 @@
           "rot": "354 281 327"
         },
         {
-          "name": "SWAMP_RED_PLATEAU_ROCK_4M_DIAGONAL_C",
-          "pos": "-64 0 69",
-          "roty": 180
+          "name": "SWAMP_RED_PLATEAU_ROCK_4M_E",
+          "pos": "52 8 -31",
+          "roty": 90
         },
         {
-          "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A",
-          "pos": "65 0 11",
+          "name": "SWAMP_RED_GROUND_PATCH_TO_ROCK_B_NO_VEG",
+          "pos": "-70 0 46",
           "roty": 270
         },
         {
@@ -12060,9 +12064,8 @@
           "roty": 180
         },
         {
-          "name": "SWAMP_RED_PLATEAU_ROCK_8M_C",
-          "pos": "-35 7 52",
-          "roty": 180
+          "name": "SWAMP_RED_PLATEAU_ROCK_4M_E",
+          "pos": "-24 2 65"
         },
         {
           "name": "SWAMP_RED_GROUND_30x30",
@@ -12176,8 +12179,9 @@
           "roty": 180
         },
         {
-          "name": "SWAMP_RED_GROUND_20x20",
-          "pos": "45 0 65"
+          "name": "SWAMP_RED_PLATEAU_ROCK_8M_C",
+          "pos": "-35 7 52",
+          "roty": 180
         },
         {
           "name": "SWAMP_RED_HILL_8M_BASE_TO_PLATEAU_8M_RIGHT_A",
@@ -12188,10 +12192,6 @@
           "name": "SWAMP_RED_PLATEAU_8M_INNERCORNER_LARGE_A",
           "pos": "-5 0 -5",
           "roty": 90
-        },
-        {
-          "name": "SWAMP_RED_PLATEAU_ROCK_4M_E",
-          "pos": "-24 2 65"
         },
         {
           "name": "SWAMP_RED_PLATEAU_ROCK_8M_D",
@@ -12278,6 +12278,11 @@
           "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_C",
           "pos": "-24 8 1",
           "roty": 270
+        },
+        {
+          "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_A",
+          "pos": "-50 0 54",
+          "roty": 90
         },
         {
           "name": "SWAMP_RED_GROUND_20x20",

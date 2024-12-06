@@ -4,8 +4,8 @@
     "unityguid": "fb92f8c8b3afa5d4d8d56f42a7172490",
     "editorBoundsMin": "-25 -25",
     "editorBoundsMax": "25 25",
-    "colBoundsMin": "-28 -28",
-    "colBoundsMax": "28 27",
+    "colBoundsMin": "-28 -26",
+    "colBoundsMax": "26 27",
     "criticalscenemembers": {},
     "tiles": {
       "layergroup": {
@@ -172,15 +172,6 @@
                 }
               },
               {
-                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_KEEPER_STANDARD_ANY",
-                "pos": "3.92 0 20.61",
-                "roty": 23.76,
-                "mobspawnpoint": {
-                  "behavior": "GUARD",
-                  "spawnbehavior": "DYNAMIC_CAMP_KEEPER_STANDARD_ANY_SOLO"
-                }
-              },
-              {
                 "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_KEEPER_CHAMPION_ANY",
                 "pos": "13.44 0 -11.31",
                 "roty": 135.2,
@@ -231,6 +222,15 @@
                 "mobspawnpoint": {
                   "behavior": "GUARD",
                   "spawnbehavior": "DYNAMIC_CAMP_KEEPER_CHAMPION_MINIBOSS_MELEE_SOLO"
+                }
+              },
+              {
+                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_KEEPER_STANDARD_ANY",
+                "pos": "3.92 0 20.61",
+                "roty": 24,
+                "mobspawnpoint": {
+                  "behavior": "GUARD",
+                  "spawnbehavior": "DYNAMIC_CAMP_KEEPER_STANDARD_ANY_SOLO"
                 }
               },
               {
@@ -833,6 +833,20 @@
                 "roty": 270
               },
               {
+                "name": "FOREST_RED_PLATEAU_ROCK_DEBRIS_C",
+                "pos": "-1 0 -19",
+                "roty": 90
+              },
+              {
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "17 1 8",
+                "roty": 270
+              },
+              {
+                "name": "FOREST_RED_VEG_GRASS_B",
+                "pos": "-1.5 0 18.5"
+              },
+              {
                 "name": "FOREST_RED_VEG_GRASS_B",
                 "pos": "-19.5 0 -17.5"
               },
@@ -860,20 +874,6 @@
               {
                 "name": "FOREST_RED_VEG_GRASS_B",
                 "pos": "-19.5 0 20.5"
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "-9 0 -14",
-                "roty": 90
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "-18 0 9"
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "17 1 8",
-                "roty": 270
               },
               {
                 "name": "FOREST_RED_KPR_FILL_STOOL_STONE_B",
@@ -941,8 +941,9 @@
                 "scale": "1.164029 1 0.9658886"
               },
               {
-                "name": "FOREST_RED_VEG_GRASS_B",
-                "pos": "-1.5 0 18.5"
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "-9 0 -14",
+                "roty": 90
               },
               {
                 "name": "FOREST_RED_PLATEAU_ROCK_DEBRIS_SMALL_A",
@@ -1186,9 +1187,8 @@
                 "pos": "15.5 0 18.5"
               },
               {
-                "name": "FOREST_RED_PLATEAU_ROCK_DEBRIS_C",
-                "pos": "-1 0 -19",
-                "roty": 90
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "-18 0 9"
               }
             ]
           },
@@ -1243,6 +1243,15 @@
                 }
               },
               {
+                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_MELEE",
+                "pos": "20.69 0 -13.3",
+                "roty": 164,
+                "mobspawnpoint": {
+                  "behavior": "GUARD",
+                  "spawnbehavior": "DYNAMIC_CAMP_MORGANA_MELEE_SOLO"
+                }
+              },
+              {
                 "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_MAGIC",
                 "pos": "10.13 0 -0.97",
                 "roty": 270,
@@ -1261,6 +1270,11 @@
                 }
               },
               {
+                "name": "FOREST_RED_MOR_TORCH_D",
+                "pos": "2.5 0 -11.5",
+                "roty": 124
+              },
+              {
                 "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_RANGED",
                 "pos": "-15.37 0 -5.15",
                 "roty": 257.32,
@@ -1270,17 +1284,12 @@
                 }
               },
               {
-                "name": "FOREST_RED_MOR_TORCH_D",
-                "pos": "2.5 0 -11.5",
-                "roty": 124
-              },
-              {
-                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_CHAMPION_ANY",
-                "pos": "15.3 0 -13.27",
-                "roty": 128.05,
+                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_STANDARD_ANY",
+                "pos": "-20.87 0 -4.74",
+                "roty": 250.27,
                 "mobspawnpoint": {
                   "behavior": "GUARD",
-                  "spawnbehavior": "DYNAMIC_CAMP_MORGANA_CHAMPION_ANY_SOLO"
+                  "spawnbehavior": "DYNAMIC_CAMP_MORGANA_STANDARD_ANY_SOLO"
                 }
               },
               {
@@ -1299,15 +1308,6 @@
                 "mobspawnpoint": {
                   "behavior": "GUARD",
                   "spawnbehavior": "DYNAMIC_CAMP_MORGANA_STANDARD_ANY_SOLO"
-                }
-              },
-              {
-                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_MELEE",
-                "pos": "20.69 0 -13.3",
-                "roty": 163.67,
-                "mobspawnpoint": {
-                  "behavior": "GUARD",
-                  "spawnbehavior": "DYNAMIC_CAMP_MORGANA_MELEE_SOLO"
                 }
               },
               {
@@ -1349,12 +1349,12 @@
                 "roty": 270
               },
               {
-                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_STANDARD_ANY",
-                "pos": "-20.87 0 -4.74",
-                "roty": 250.27,
+                "name": "SpawnPoint_RANDOM_ROAMING_DYNAMIC_CAMP_MORGANA_CHAMPION_ANY",
+                "pos": "15.3 0 -13.27",
+                "roty": 128.05,
                 "mobspawnpoint": {
                   "behavior": "GUARD",
-                  "spawnbehavior": "DYNAMIC_CAMP_MORGANA_STANDARD_ANY_SOLO"
+                  "spawnbehavior": "DYNAMIC_CAMP_MORGANA_CHAMPION_ANY_SOLO"
                 }
               },
               {
@@ -1752,6 +1752,37 @@
                 "roty": 270
               },
               {
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "17 1 8",
+                "roty": 270
+              },
+              {
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "5 0 -18"
+              },
+              {
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "-18 0 9"
+              },
+              {
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "18 1 9",
+                "roty": 270
+              },
+              {
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "-9 0 -14",
+                "roty": 90
+              },
+              {
+                "name": "FOREST_RED_VEG_GRASS_B",
+                "pos": "-1.5 0 18.5"
+              },
+              {
+                "name": "FOREST_RED_VEG_GRASS_B",
+                "pos": "-19.5 0 -17.5"
+              },
+              {
                 "name": "FOREST_RED_VEG_GRASS_B",
                 "pos": "-8.5 0 20.5"
               },
@@ -1764,44 +1795,13 @@
                 "pos": "20.5 0 -4.5"
               },
               {
-                "name": "FOREST_RED_VEG_GRASS_B",
-                "pos": "17.5 0 16.5"
-              },
-              {
-                "name": "FOREST_RED_VEG_GRASS_B",
-                "pos": "-19.5 0 20.5"
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "18 1 9",
-                "roty": 270
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "-9 0 -14",
-                "roty": 90
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "17 1 8",
-                "roty": 270
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "-16 0 4"
-              },
-              {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "-18 0 9"
-              },
-              {
                 "name": "FOREST_RED_T1_BUSH_B",
                 "pos": "12.5 0 2.5",
                 "roty": 270
               },
               {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "5 0 -18"
+                "name": "FOREST_RED_VEG_GRASS_B",
+                "pos": "17.5 0 16.5"
               },
               {
                 "name": "FOREST_RED_GROUND_PATCH_TO_ROAD_A",
@@ -1856,9 +1856,8 @@
                 "roty": 270
               },
               {
-                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NOCOL_NORAMP",
-                "pos": "-13 1 16",
-                "roty": 180
+                "name": "FOREST_RED_VEG_GRASS_B",
+                "pos": "-19.5 0 20.5"
               },
               {
                 "name": "FOREST_RED_T1_BUSH_B",
@@ -2108,12 +2107,13 @@
                 "pos": "-17.5 0 -10.5"
               },
               {
-                "name": "FOREST_RED_VEG_GRASS_B",
-                "pos": "-19.5 0 -17.5"
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "-16 0 4"
               },
               {
-                "name": "FOREST_RED_VEG_GRASS_B",
-                "pos": "-1.5 0 18.5"
+                "name": "FOREST_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "-13 1 16",
+                "roty": 180
               }
             ]
           },

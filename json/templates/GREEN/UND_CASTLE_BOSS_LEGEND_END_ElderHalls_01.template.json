@@ -2646,7 +2646,7 @@
         },
         {
           "name": "FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_50x50_A",
-          "pos": "45 -40 -35",
+          "pos": "45 -39 -35",
           "scale": "5 1 5"
         },
         {
@@ -2661,7 +2661,7 @@
         },
         {
           "name": "FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_50x50_A",
-          "pos": "45 -40 15",
+          "pos": "45 -39 15",
           "scale": "5 1 5"
         },
         {
@@ -2686,7 +2686,7 @@
         },
         {
           "name": "FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_50x50_A",
-          "pos": "45 -40 -85",
+          "pos": "45 -39 -85",
           "scale": "5 1 5"
         },
         {
@@ -2887,12 +2887,12 @@
         },
         {
           "name": "FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_50x50_A",
-          "pos": "45 -40 65",
+          "pos": "45 -39 65",
           "scale": "5 1 5"
         },
         {
           "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_C_NOCOL",
-          "pos": "8 -16 -39",
+          "pos": "7 -16 -39",
           "roty": 180
         },
         {
@@ -3142,7 +3142,7 @@
         {
           "name": "FOREST_GREEN_WATER_PUDDLE_SMALL_A_DECO",
           "pos": "-3 -12 -26",
-          "roty": 207.83,
+          "roty": 208,
           "scale": "0.61737 1 0.6472799"
         },
         {
@@ -3594,7 +3594,7 @@
         },
         {
           "name": "FOREST_GREEN_FILL_RUIN_DEBRIS_C",
-          "pos": "-8 -16 -39"
+          "pos": "-7 -16 -41"
         },
         {
           "name": "FOREST_GREEN_UND_CITY_GATE_OPEN_LARGE_B",
@@ -3843,7 +3843,7 @@
         {
           "name": "FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_SMALL_A",
           "pos": "10 -16 -40",
-          "roty": 270
+          "roty": 90
         },
         {
           "name": "FOREST_GREEN_UND_CRYPT_COLUMN_LARGE_LOWCUT_SMALL_A",

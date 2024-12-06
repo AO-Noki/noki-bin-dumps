@@ -2426,7 +2426,7 @@
         },
         {
           "name": "FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M",
-          "pos": "-45 -12 -50"
+          "pos": "-45 -11 -50"
         },
         {
           "name": "FOREST_GREEN_MOR_MONASTERY_WALL_GATE_STRAIGHT_A_20M",
@@ -3807,7 +3807,7 @@
         },
         {
           "name": "FOREST_GREEN_MOR_CASTLE_WALL_OUT_BUTTRESS_A",
-          "pos": "7 -8 -110"
+          "pos": "7 0 -110"
         },
         {
           "name": "FOREST_GREEN_MOR_CASTLE_ROOF_A",
@@ -3940,7 +3940,7 @@
         },
         {
           "name": "FOREST_GREEN_MOR_CASTLE_WALL_OUT_BUTTRESS_A",
-          "pos": "-8 -8 -110",
+          "pos": "-8 0 -110",
           "roty": 180
         },
         {

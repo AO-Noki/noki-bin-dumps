@@ -13,11 +13,11 @@
         "layerId": "",
         "tile": {
           "name": "Exit_PROXIMITY_TRIGGER",
-          "pos": "0.5 -3 8.5",
+          "pos": "0.5 -3 5.5",
           "roty": 90,
           "exit": {
-            "size": "15 15",
-            "spawnpos": "14 0",
+            "size": "8 8",
+            "spawnpos": "6.537461 -9.536743E-07",
             "faction": "None",
             "kind": "Cluster",
             "roadtype": "Primary",
@@ -26,10 +26,10 @@
             "guards": {
               "guard": [
                 {
-                  "pos": "5.499998 -5.500002"
+                  "pos": "5.499998 -1.037462"
                 },
                 {
-                  "pos": "-4.500002 -5.500002"
+                  "pos": "-4.500002 -1.037462"
                 }
               ]
             }
@@ -336,13 +336,13 @@
       ],
       "criticaltile": {
         "name": "Exit_PROXIMITY_TRIGGER",
-        "pos": "0.5 -3 8.5",
+        "pos": "0.5 -3 5.5",
         "roty": 90,
         "id": "exit_01",
         "type": "exit",
         "exit": {
-          "size": "15 15",
-          "spawnpos": "14 0",
+          "size": "8 8",
+          "spawnpos": "6.537461 -9.536743E-07",
           "faction": "None",
           "kind": "Cluster",
           "roadtype": "Primary",
@@ -351,10 +351,10 @@
           "guards": {
             "guard": [
               {
-                "pos": "5.499998 -5.500002"
+                "pos": "5.499998 -1.037462"
               },
               {
-                "pos": "-4.500002 -5.500002"
+                "pos": "-4.500002 -1.037462"
               }
             ]
           }

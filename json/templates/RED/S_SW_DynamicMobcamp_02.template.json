@@ -390,10 +390,6 @@
               },
               {
                 "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
-                "pos": "6.5 8 15.5"
-              },
-              {
-                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
                 "pos": "3.5 8 14.5"
               },
               {
@@ -464,6 +460,15 @@
                 "roty": 270
               },
               {
+                "name": "SWAMP_RED_VEG_GRASS_B_SMALL",
+                "pos": "12 8 -11"
+              },
+              {
+                "name": "SWAMP_RED_GROUND_PATCH_TO_ROAD_CIRCLE_A",
+                "pos": "3 8 1",
+                "scale": "3.094973 1 2.370198"
+              },
+              {
                 "name": "SWAMP_RED_ROCK_PLATEAU_WALL_A_NOCOL_NORAMP",
                 "pos": "12 4.51 15",
                 "rot": "18 14 17"
@@ -489,19 +494,19 @@
                 "rot": "354 182 3"
               },
               {
+                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
+                "pos": "6.5 8 15.5"
+              },
+              {
                 "name": "SWAMP_RED_T1_DECO_TREE_PLAIN_A",
                 "pos": "-15.5 3 5.5",
                 "rot": "3 93 3"
               },
               {
-                "name": "SWAMP_RED_T1_BUSH_B",
-                "pos": "-18.5 1 -18.5",
-                "roty": 180
-              },
-              {
-                "name": "SWAMP_RED_T1_DECO_TREE_PLAIN_A",
-                "pos": "18 3 -15",
-                "rot": "354 182 3"
+                "name": "SWAMP_RED_T1_TREE_UNIVERSAL_SLIM_B",
+                "pos": "22.5 0 17.5",
+                "rot": "0 86 2",
+                "scale": "1 1.0176 1"
               },
               {
                 "name": "SWAMP_RED_T1_TREE_UNIVERSAL_SLIM_B",
@@ -528,19 +533,14 @@
                 "pos": "17 0 23"
               },
               {
-                "name": "SWAMP_RED_VEG_GRASS_B_SMALL",
-                "pos": "12 8 -11"
+                "name": "SWAMP_RED_T1_DECO_TREE_PLAIN_A",
+                "pos": "18 3 -15",
+                "rot": "354 182 3"
               },
               {
-                "name": "SWAMP_RED_T1_TREE_UNIVERSAL_SLIM_B",
-                "pos": "22.5 0 17.5",
-                "rot": "0 86 2",
-                "scale": "1 1.0176 1"
-              },
-              {
-                "name": "SWAMP_RED_GROUND_PATCH_TO_ROAD_CIRCLE_A",
-                "pos": "3 8 1",
-                "scale": "3.094973 1 2.370198"
+                "name": "SWAMP_RED_T1_BUSH_B",
+                "pos": "-18.5 1 -18.5",
+                "roty": 180
               },
               {
                 "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_E",
@@ -549,63 +549,12 @@
                 "scale": "1 1.5 1"
               },
               {
-                "name": "SWAMP_RED_ROCK_SPIKES_LARGE_A_NOCOL",
-                "pos": "0 -1 -15",
-                "rot": "325.67 25.2 16.76"
-              },
-              {
-                "name": "SWAMP_RED_VEG_GRASS_B_SMALL",
-                "pos": "-5 8 14"
-              },
-              {
-                "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_C",
-                "pos": "-10 1 -16",
-                "roty": 232
-              },
-              {
-                "name": "SWAMP_RED_VEG_GRASS_B_SMALL",
-                "pos": "19.64 0 24.25"
-              },
-              {
                 "name": "SWAMP_RED_T1_BUSH_B",
-                "pos": "23.5 0 -12.5",
-                "roty": 90
+                "pos": "23.5 0 13.5"
               },
               {
-                "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_GROUND_A",
-                "pos": "14 8 -11",
-                "roty": 270
-              },
-              {
-                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
-                "pos": "5.5 8 12.5"
-              },
-              {
-                "name": "SWAMP_RED_T1_BUSH_B",
-                "pos": "-6.5 8 15.5",
-                "roty": 270
-              },
-              {
-                "name": "SWAMP_RED_T1_BUSH_B",
-                "pos": "-9.5 0 23.5"
-              },
-              {
-                "name": "SWAMP_RED_VEG_LEAFS_C",
-                "pos": "20.5 0 20.5"
-              },
-              {
-                "name": "SWAMP_RED_FILL_TREE_MAMMOTH_WILLOW_A",
-                "pos": "8 5 -13",
-                "roty": 90
-              },
-              {
-                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
-                "pos": "-19.5 0 12.5",
-                "roty": 90
-              },
-              {
-                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
-                "pos": "-7.5 8 -8.5",
+                "name": "SWAMP_RED_T1_TREE_UNIVERSAL_SLIM_A",
+                "pos": "6.5 8 -10.5",
                 "roty": 180
               },
               {
@@ -614,9 +563,23 @@
                 "roty": 180
               },
               {
-                "name": "SWAMP_RED_T1_TREE_UNIVERSAL_SLIM_A",
-                "pos": "6.5 8 -10.5",
+                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
+                "pos": "-7.5 8 -8.5",
                 "roty": 180
+              },
+              {
+                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
+                "pos": "-19.5 0 12.5",
+                "roty": 90
+              },
+              {
+                "name": "SWAMP_RED_FILL_TREE_MAMMOTH_WILLOW_A",
+                "pos": "8 5 -13",
+                "roty": 90
+              },
+              {
+                "name": "SWAMP_RED_VEG_LEAFS_C",
+                "pos": "20.5 0 20.5"
               },
               {
                 "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
@@ -624,12 +587,57 @@
               },
               {
                 "name": "SWAMP_RED_T1_BUSH_B",
+                "pos": "-9.5 0 23.5"
+              },
+              {
+                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
+                "pos": "5.5 8 12.5"
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_GROUND_A",
+                "pos": "14 8 -11",
+                "roty": 270
+              },
+              {
+                "name": "SWAMP_RED_T1_BUSH_B",
+                "pos": "23.5 0 -12.5",
+                "roty": 90
+              },
+              {
+                "name": "SWAMP_RED_VEG_GRASS_B_SMALL",
+                "pos": "19.64 0 24.25"
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_C",
+                "pos": "-10 1 -16",
+                "roty": 232
+              },
+              {
+                "name": "SWAMP_RED_VEG_GRASS_B_SMALL",
+                "pos": "-5 8 14"
+              },
+              {
+                "name": "SWAMP_RED_T1_BUSH_B",
+                "pos": "-6.5 8 15.5",
+                "roty": 270
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_C",
+                "pos": "20 0 14"
+              },
+              {
+                "name": "SWAMP_RED_T1_BUSH_B",
                 "pos": "11 0 -23"
               },
               {
-                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "12 0 17",
-                "roty": 180
+                "name": "SWAMP_RED_ROCK_SPIKES_LARGE_B_NOCOL",
+                "pos": "14 0 -16",
+                "roty": 282
+              },
+              {
+                "name": "SWAMP_RED_ROCK_SPIKES_LARGE_A_NOCOL",
+                "pos": "0 -1 -15",
+                "rot": "325.67 25.2 16.76"
               },
               {
                 "name": "SWAMP_RED_T1_BUSH_B",
@@ -654,17 +662,17 @@
               },
               {
                 "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "12 0 17",
+                "roty": 180
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
                 "pos": "16 -1 -18",
                 "roty": 270
               },
               {
-                "name": "SWAMP_RED_T1_BUSH_B",
-                "pos": "23.5 0 13.5"
-              },
-              {
-                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "8 0 17",
-                "roty": 180
+                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
+                "pos": "-2.5 0 -23.5"
               },
               {
                 "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
@@ -689,17 +697,14 @@
                 "roty": 85
               },
               {
-                "name": "SWAMP_RED_ROCK_SPIKES_LARGE_B_NOCOL",
-                "pos": "14 0 -16",
-                "roty": 282
-              },
-              {
-                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
-                "pos": "-2.5 0 -23.5"
+                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "8 0 17",
+                "roty": 180
               },
               {
                 "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_C",
-                "pos": "20 0 14"
+                "pos": "-3 8 -10",
+                "rot": "32 273 1"
               }
             ]
           },
@@ -2127,13 +2132,46 @@
                 "roty": 270
               },
               {
-                "name": "SWAMP_RED_VEG_FLOWERS_COLOR_SMALL_A",
-                "pos": "-12.5 0 22.5",
-                "roty": 214
+                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
+                "pos": "16 -3 7"
+              },
+              {
+                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
+                "pos": "16 -4 13",
+                "roty": 180
+              },
+              {
+                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
+                "pos": "22.5 0 -21.5"
+              },
+              {
+                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
+                "pos": "12.5 8 5.5",
+                "roty": 270
+              },
+              {
+                "name": "SWAMP_RED_FILL_TREE_MAMMOTH_WILLOW_A",
+                "pos": "-14 1 8",
+                "roty": 270
+              },
+              {
+                "name": "SWAMP_RED_T1_BUSH_B",
+                "pos": "12.5 8 4.5",
+                "roty": 327
               },
               {
                 "name": "SWAMP_RED_VEG_FLOWERS_COLOR_SMALL_A",
-                "pos": "19.5 0 -19.5"
+                "pos": "-22.5 0 21.5"
+              },
+              {
+                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_A_NORAMP",
+                "pos": "10 4 17",
+                "rot": "6 198.79 357.99"
+              },
+              {
+                "name": "SWAMP_RED_VEG_FLOWERS_COLOR_SMALL_A",
+                "pos": "-12.5 0 22.5",
+                "roty": 214
               },
               {
                 "name": "SWAMP_RED_VEG_FLOWERS_COLOR_SMALL_A",
@@ -2161,66 +2199,64 @@
               },
               {
                 "name": "SWAMP_RED_VEG_FLOWERS_COLOR_SMALL_A",
-                "pos": "-22.5 0 21.5"
-              },
-              {
-                "name": "SWAMP_RED_VEG_FLOWERS_COLOR_SMALL_A",
                 "pos": "-22.5 0 -21.5"
-              },
-              {
-                "name": "SWAMP_RED_FILL_GROUND_COBBLESTONES_PATCH_SMALL_A",
-                "pos": "8 8 8",
-                "roty": 270,
-                "scale": "1.2 1 1.2"
-              },
-              {
-                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "18 0 10",
-                "roty": 180
-              },
-              {
-                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "17 -1 -11",
-                "roty": 270
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
-                "pos": "-12 1 -17",
-                "roty": 90
-              },
-              {
-                "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B",
-                "pos": "21 0 16",
-                "roty": 90
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_WALL_COLUMN_A",
-                "pos": "13.5 8 11",
-                "roty": 90
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
-                "pos": "15 8 6",
-                "roty": 180
               },
               {
                 "name": "SWAMP_RED_T1_BUSH_B",
                 "pos": "-3.5 8 -6.5"
               },
               {
-                "name": "SWAMP_RED_T1_BUSH_B",
-                "pos": "12.5 8 4.5",
-                "roty": 327
+                "name": "SWAMP_RED_VEG_FLOWERS_COLOR_SMALL_A",
+                "pos": "19.5 0 -19.5"
               },
               {
-                "name": "SWAMP_RED_FILL_TREE_MAMMOTH_WILLOW_A",
-                "pos": "-14 1 8",
-                "roty": 270
+                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_NORAMP",
+                "pos": "-2 -3 -14",
+                "roty": 325
               },
               {
-                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
-                "pos": "12.5 8 5.5",
-                "roty": 270
+                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
+                "pos": "10 -4 -17",
+                "rot": "359 92 9"
+              },
+              {
+                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
+                "pos": "15 4 13",
+                "rot": "358 109 354"
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
+                "pos": "-4 3 -11",
+                "rot": "39 194 9"
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_C",
+                "pos": "-13 4 2",
+                "rot": "30 315 15"
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
+                "pos": "-10.21 6.27 0.16",
+                "rot": "23 315 11"
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
+                "pos": "-14 0 15",
+                "roty": 30
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
+                "pos": "-2 4 -11",
+                "rot": "39 194 9"
+              },
+              {
+                "name": "SWAMP_RED_UND_BOOKSHELF_B_NOBLEND",
+                "pos": "10 5 -13",
+                "rot": "8 271 22"
+              },
+              {
+                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
+                "pos": "16.5 8 -6.5"
               },
               {
                 "name": "SWAMP_RED_VEG_GRASS_B_SMALL",
@@ -2266,55 +2302,39 @@
                 "rot": "359 27 9"
               },
               {
-                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_DIAGONAL_A_NORAMP",
-                "pos": "15 4 13",
-                "rot": "358 109 354"
-              },
-              {
-                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_SHORT_NORAMP",
-                "pos": "10 -4 -17",
-                "rot": "359 92 9"
-              },
-              {
-                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_NORAMP",
-                "pos": "-2 -3 -14",
-                "roty": 325
-              },
-              {
-                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_A_NORAMP",
-                "pos": "10 4 17",
-                "rot": "6 198.79 357.99"
-              },
-              {
-                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
-                "pos": "16 -3 7"
-              },
-              {
-                "name": "SWAMP_RED_ROCK_PLATEAU_WALL_COMP_A_NOCOL_NORAMP",
-                "pos": "16 -4 13",
-                "roty": 180
-              },
-              {
-                "name": "SWAMP_RED_T1_TREE_A_PLAYERISLAND",
-                "pos": "22.5 0 -21.5"
+                "name": "SWAMP_RED_FILL_GROUND_COBBLESTONES_PATCH_SMALL_A",
+                "pos": "8 8 8",
+                "roty": 270,
+                "scale": "1.2 1 1.2"
               },
               {
                 "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "16 -2 15",
+                "pos": "18 0 10",
+                "roty": 180
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "17 -1 -11",
+                "roty": 270
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
+                "pos": "-12 1 -17",
+                "roty": 90
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_CORNER_A",
+                "pos": "11 8 -11",
+                "roty": 90
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_WALL_C",
+                "pos": "15 6 -9",
                 "roty": 180
               },
               {
                 "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
-                "pos": "6 8 14"
-              },
-              {
-                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
-                "pos": "8 0 18",
-                "roty": 90
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_WALL_B",
-                "pos": "9 5 14",
+                "pos": "-14 2 -16",
                 "roty": 90
               },
               {
@@ -2327,11 +2347,6 @@
                 "name": "SWAMP_RED_FILL_RUIN_DEBRIS_LARGE_A",
                 "pos": "-4 0 -17",
                 "roty": 270
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-15 2 -15",
-                "roty": 195
               },
               {
                 "name": "SWAMP_RED_FILL_RUIN_WALL_INNERCORNER_ROUNDED_A",
@@ -2347,11 +2362,6 @@
                 "name": "SWAMP_RED_FILL_RUIN_DEBRIS_CORNER_A",
                 "pos": "8 8 -12",
                 "roty": 180
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_C_NOCOL",
-                "pos": "-6 2 -14",
-                "rot": "348 93 333"
               },
               {
                 "name": "SWAMP_RED_T1_DECO_BUSH_B",
@@ -2380,7 +2390,7 @@
               {
                 "name": "SWAMP_RED_FILL_RUIN_DEBRIS_B_NOCOL",
                 "pos": "0 4 -12",
-                "rot": "305.34 355.96 50.03"
+                "rot": "305 356 50"
               },
               {
                 "name": "SWAMP_RED_FILL_RUIN_WALL_B",
@@ -2393,48 +2403,67 @@
                 "roty": 30
               },
               {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-14 0 15",
-                "roty": 30
-              },
-              {
                 "name": "SWAMP_RED_T1_BUSH_B",
                 "pos": "-5.5 8 8.5",
                 "roty": 57
               },
               {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-2 4 -11",
-                "rot": "39 194 9"
-              },
-              {
-                "name": "SWAMP_RED_VEG_GRASS_SMALL_A",
-                "pos": "16.5 8 -6.5"
+                "name": "SWAMP_RED_T1_BUSH_A",
+                "pos": "-14.5 0 -21.5",
+                "rot": "3 249 7"
               },
               {
                 "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
-                "pos": "-14 2 -16",
-                "roty": 90
+                "pos": "-15 2 -15",
+                "roty": 195
+              },
+              {
+                "name": "SWAMP_RED_FILL_GROUND_COBBLESTONES_PATCH_SINGLE_A",
+                "pos": "9 8 -7"
               },
               {
                 "name": "SWAMP_RED_FILL_RUIN_DEBRIS_CORNER_A",
-                "pos": "11 8 -11",
+                "pos": "20 0 20",
+                "roty": 180
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_ROCK_DEBRIS_SMALL_GATHERING_B",
+                "pos": "21 0 16",
                 "roty": 90
               },
               {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-4 3 -11",
-                "rot": "39 194 9"
+                "name": "SWAMP_RED_FILL_RUIN_WALL_COLUMN_A",
+                "pos": "13.5 8 11",
+                "roty": 90
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
+                "pos": "15 8 6",
+                "roty": 180
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "16 -2 15",
+                "roty": 180
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
+                "pos": "6 8 14"
+              },
+              {
+                "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
+                "pos": "8 0 18",
+                "roty": 90
+              },
+              {
+                "name": "SWAMP_RED_FILL_RUIN_WALL_B",
+                "pos": "9 5 14",
+                "roty": 90
               },
               {
                 "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
                 "pos": "19 0 8",
                 "roty": 270
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_C_NOCOL",
-                "pos": "-13 4 2",
-                "rot": "30 315 15"
               },
               {
                 "name": "SWAMP_RED_PLATEAU_PLUG_ROCK_4M_A_DIAGONAL",
@@ -2465,11 +2494,6 @@
                 "roty": 277
               },
               {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A_NOCOL",
-                "pos": "-10.21 6.27 0.16",
-                "rot": "23 315 11"
-              },
-              {
                 "name": "SWAMP_RED_T1_BUSH_A",
                 "pos": "-5.5 8 4.5"
               },
@@ -2484,33 +2508,14 @@
                 "roty": 180
               },
               {
-                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_CORNER_A",
-                "pos": "20 0 20",
-                "roty": 180
-              },
-              {
                 "name": "SWAMP_RED_FILL_RUIN_DEBRIS_A",
                 "pos": "-6 8 14",
                 "roty": 195
               },
               {
-                "name": "SWAMP_RED_FILL_GROUND_COBBLESTONES_PATCH_SINGLE_A",
-                "pos": "9 8 -7"
-              },
-              {
-                "name": "SWAMP_RED_T1_BUSH_A",
-                "pos": "-14.5 0 -21.5",
-                "rot": "3 249 7"
-              },
-              {
-                "name": "SWAMP_RED_FILL_RUIN_WALL_C",
-                "pos": "15 6 -9",
-                "roty": 180
-              },
-              {
-                "name": "SWAMP_RED_UND_BOOKSHELF_B_NOBLEND",
-                "pos": "10 5 -13",
-                "rot": "8 271 22"
+                "name": "SWAMP_RED_FILL_RUIN_DEBRIS_C",
+                "pos": "-6 2 -14",
+                "rot": "348 93 333"
               }
             ]
           }

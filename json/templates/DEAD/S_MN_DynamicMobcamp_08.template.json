@@ -1537,6 +1537,11 @@
                 "roty": 150
               },
               {
+                "name": "MOUNTAIN_DEAD_MOR_STOCKADE_STRAIGHT_SMALL_A",
+                "pos": "23.5 -1 -14.5",
+                "rot": "359 11 29"
+              },
+              {
                 "name": "MOUNTAIN_DEAD_MOR_STANDARD_A",
                 "pos": "-9.87 8 8.13",
                 "roty": 180,
@@ -1554,20 +1559,15 @@
                 "rot": "2 96 0"
               },
               {
-                "name": "MOUNTAIN_DEAD_GROUND_PATCH_TO_ROAD_A",
-                "pos": "-4 8 7",
-                "roty": 90,
-                "scale": "1.049988 1 1.392054"
-              },
-              {
                 "name": "MOUNTAIN_DEAD_T1_TREE_SLIM_A",
                 "pos": "-1 0 -24",
                 "roty": 270
               },
               {
-                "name": "MOUNTAIN_DEAD_FILL_STORAGE_BARRELS_LARGE_A",
-                "pos": "7 8 13",
-                "roty": 63
+                "name": "MOUNTAIN_DEAD_GROUND_PATCH_TO_ROAD_A",
+                "pos": "-4 8 7",
+                "roty": 90,
+                "scale": "1.049988 1 1.392054"
               },
               {
                 "name": "MOUNTAIN_DEAD_T1_TREE_SLIM_A",
@@ -1679,15 +1679,15 @@
                 "pos": "15.5 0 22.5"
               },
               {
+                "name": "MOUNTAIN_DEAD_FILL_STORAGE_BARRELS_LARGE_A",
+                "pos": "7 8 13",
+                "roty": 63
+              },
+              {
                 "name": "MOUNTAIN_DEAD_FILL_STORAGE_TRANSPORT_CRANE_B",
                 "pos": "13.5 8 -14.5",
                 "roty": 56,
                 "scale": "1.70916 1.221 1.221"
-              },
-              {
-                "name": "MOUNTAIN_DEAD_MOR_STOCKADE_STRAIGHT_SMALL_A",
-                "pos": "23.5 -1 -14.5",
-                "rot": "359 34 29"
               },
               {
                 "name": "MOUNTAIN_DEAD_PLATEAU_ROCK_DEBRIS_C",
