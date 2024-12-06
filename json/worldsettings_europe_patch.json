@@ -1,0 +1,377 @@
+{
+  "patch": {
+    "remove": {
+      "sel": "AO-WorldSettings/timeregions"
+    },
+    "add": {
+      "sel": "AO-WorldSettings/worldmap",
+      "before": true
+    },
+    "replace": [
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/resourcespawns/resourcetier[@tier='2']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/resourcespawns/resourcetier[@tier='3']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/resourcespawns/resourcetier[@tier='4']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.13
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='MOB_FOX']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T2_MOB_HIDE_SWAMP_SNAKE']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T2_MOB_HIDE_STEPPE_IMPALA']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='MOB_WOLF']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_HIDE_SWAMP_GIANTTOAD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_HIDE_STEPPE_MOABIRD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_FIBER']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_HIDE_COUGAR']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ORE_MOUNTAIN_GREEN']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ORE_MOUNTAIN_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_WOOD_FOREST_GREEN']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_WOOD_FOREST_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ROCK_HIGHLAND_GREEN']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ROCK_HIGHLAND_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='MOB_BOAR']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.15
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T4_MOB_HIDE_SWAMP_MONITORLIZARD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.15
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='SAFEAREA']/mobspawns/mobspawn[@name='T4_MOB_HIDE_STEPPE_GIANTSTAG']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.15
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/resourcespawns/resourcetier[@tier='2']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/resourcespawns/resourcetier[@tier='3']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/resourcespawns/resourcetier[@tier='4']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.13
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/resourcespawns/resourcetier[@tier='5']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='MOB_FOX']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T2_MOB_HIDE_SWAMP_SNAKE']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T2_MOB_HIDE_STEPPE_IMPALA']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.35
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='MOB_WOLF']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_HIDE_SWAMP_GIANTTOAD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_HIDE_STEPPE_MOABIRD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_FIBER']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_HIDE_COUGAR']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ORE_MOUNTAIN_GREEN']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ORE_MOUNTAIN_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_WOOD_FOREST_GREEN']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_WOOD_FOREST_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ROCK_HIGHLAND_GREEN']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T3_MOB_CRITTER_ROCK_HIGHLAND_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='MOB_BOAR']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.13
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T4_MOB_HIDE_SWAMP_MONITORLIZARD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.13
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T4_MOB_HIDE_STEPPE_GIANTSTAG']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.13
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='MOB_BEAR']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_HIDE_SWAMP_GIANTSNAKE']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_HIDE_STEPPE_TERRORBIRD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_FIBER']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_HIDE_COUGAR']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_ORE_MOUNTAIN_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_ORE_MOUNTAIN_DEAD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_WOOD_FOREST_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_WOOD_FOREST_DEAD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_ROCK_HIGHLAND_RED']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      },
+      {
+        "sel": "AO-WorldSettings/clustertypes/clustertype[@name='OPENPVP_YELLOW']/mobspawns/mobspawn[@name='T5_MOB_CRITTER_ROCK_HIGHLAND_DEAD']",
+        "attribute": {
+          "name": "timefactor",
+          "newvalue": 0.17
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "cluster": {
+    "origin": "-1025 -605",
+    "size": "1480 1380",
+    "minimapBoundsMin": "-880 -520",
+    "minimapBoundsMax": "420 780",
+    "minimapHeightRangeEnabled": true,
+    "minimapHeightRange": "0 12",
+    "minimapBaseLevelEnabled": true,
+    "minimapBaseLevel": 6,
+    "minimapMaterialPreset": "Avalon",
+    "oceanflow": 0.05,
+    "oceanflowspeed": 0.01,
+    "oceananimspeed": 0.4,
+    "templateinstance": [
+      {
+        "id": "instanceslot_00",
+        "ref": "ROAD_H_M2_S6_P6",
+        "pos": "-210 0 360",
+        "rot": 270,
+        "activelayer": [
+          {
+            "id": "Layer_01"
+          },
+          {
+            "id": "Layer_04"
+          },
+          {
+            "id": "Layer_06"
+          },
+          {
+            "id": "Layer_08"
+          },
+          {
+            "id": "Layer_10"
+          },
+          {
+            "id": "Layer_11"
+          },
+          {
+            "id": "Layer_15"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_01",
+        "ref": "S_ROADS_PVE_SOLO_04",
+        "pos": "-505 0 -405",
+        "activelayer": [
+          {
+            "id": "Layer_01"
+          },
+          {
+            "id": "Layer_06"
+          },
+          {
+            "id": "Layer_08"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_02",
+        "ref": "S_ROADS_RES_WoodFiber_02",
+        "pos": "-125 0 215",
+        "rot": 180,
+        "activelayer": [
+          {
+            "id": "Layer_03"
+          },
+          {
+            "id": "Layer_15"
+          },
+          {
+            "id": "Layer_22"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_03",
+        "ref": "S_ROADS_PVE_SOLO_08",
+        "pos": "-545 0 555",
+        "rot": 180,
+        "activelayer": [
+          {
+            "id": "Layer_03"
+          },
+          {
+            "id": "Layer_04"
+          },
+          {
+            "id": "Layer_08"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_04",
+        "ref": "M_ROADS_Medium_Sleeve_01",
+        "pos": "-565 0 135",
+        "rot": 90,
+        "activelayer": [
+          {
+            "id": "Layer_05"
+          },
+          {
+            "id": "Layer_06"
+          },
+          {
+            "id": "Layer_10"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_05",
+        "ref": "S_ROADS_Portal_Mistcity_01",
+        "pos": "-65 0 535",
+        "activelayer": [
+          {
+            "id": "Layer_02"
+          },
+          {
+            "id": "Layer_05"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_06",
+        "ref": "S_ROADS_DNG_GROUP_Entrance_01",
+        "pos": "15 0 -45",
+        "rot": 270,
+        "activelayer": [
+          {
+            "id": "Layer_05"
+          },
+          {
+            "id": "Layer_11"
+          },
+          {
+            "id": "Layer_17"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_07",
+        "ref": "S_ROADS_Portal_01",
+        "pos": "-745 0 -265",
+        "activelayer": {
+          "id": "Layer_03"
+        }
+      },
+      {
+        "id": "instanceslot_08",
+        "ref": "S_ROADS_Portal_01",
+        "pos": "175 0 375",
+        "rot": 180,
+        "activelayer": {
+          "id": "Layer_03"
+        }
+      },
+      {
+        "id": "instanceslot_09",
+        "ref": "M_ROADS_PVE_SOLO_01",
+        "pos": "195 0 55",
+        "rot": 180,
+        "activelayer": [
+          {
+            "id": "Layer_01"
+          },
+          {
+            "id": "Layer_06"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_10",
+        "ref": "M_ROADS_RES_WoodFiber_02",
+        "pos": "-565 0 135",
+        "activelayer": [
+          {
+            "id": "Layer_03"
+          },
+          {
+            "id": "Layer_26"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_11",
+        "ref": "M_ROADS_Medium_Sleeve_01",
+        "pos": "195 0 55",
+        "rot": 90,
+        "activelayer": [
+          {
+            "id": "Layer_04"
+          },
+          {
+            "id": "Layer_06"
+          },
+          {
+            "id": "Layer_10"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_12",
+        "ref": "S_ROADS_RES_RockWood_02",
+        "pos": "-765 0 -45",
+        "rot": 270,
+        "activelayer": [
+          {
+            "id": "Layer_04"
+          },
+          {
+            "id": "Layer_08"
+          },
+          {
+            "id": "Layer_12"
+          }
+        ]
+      }
+    ]
+  }
+}

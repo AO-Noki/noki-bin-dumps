@@ -1,0 +1,1037 @@
+{
+  "rareresourcedistributions": {
+    "checkintervall": 3600,
+    "rareresourcedistribution": [
+      {
+        "name": "DEFAULT",
+        "tier": {
+          "rarestate": [
+            {
+              "state": 0,
+              "weight": 1876
+            },
+            {
+              "state": 1,
+              "weight": 100
+            },
+            {
+              "state": 2,
+              "weight": 20
+            },
+            {
+              "state": 3,
+              "weight": 4
+            }
+          ]
+        }
+      },
+      {
+        "name": "ROADS",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 7520
+              },
+              {
+                "state": 1,
+                "weight": 2000
+              },
+              {
+                "state": 2,
+                "weight": 400
+              },
+              {
+                "state": 3,
+                "weight": 80
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 4256
+              },
+              {
+                "state": 1,
+                "weight": 600
+              },
+              {
+                "state": 2,
+                "weight": 120
+              },
+              {
+                "state": 3,
+                "weight": 24
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 1876
+              },
+              {
+                "state": 1,
+                "weight": 100
+              },
+              {
+                "state": 2,
+                "weight": 20
+              },
+              {
+                "state": 3,
+                "weight": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SAFE",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 4504
+              },
+              {
+                "state": 1,
+                "weight": 400
+              },
+              {
+                "state": 2,
+                "weight": 80
+              },
+              {
+                "state": 3,
+                "weight": 16
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 1876
+              },
+              {
+                "state": 1,
+                "weight": 100
+              },
+              {
+                "state": 2,
+                "weight": 20
+              },
+              {
+                "state": 3,
+                "weight": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "YELLOW",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 4256
+              },
+              {
+                "state": 1,
+                "weight": 600
+              },
+              {
+                "state": 2,
+                "weight": 120
+              },
+              {
+                "state": 3,
+                "weight": 24
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 4256
+              },
+              {
+                "state": 1,
+                "weight": 600
+              },
+              {
+                "state": 2,
+                "weight": 120
+              },
+              {
+                "state": 3,
+                "weight": 24
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 1876
+              },
+              {
+                "state": 1,
+                "weight": 100
+              },
+              {
+                "state": 2,
+                "weight": 20
+              },
+              {
+                "state": 3,
+                "weight": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RED",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 4256
+              },
+              {
+                "state": 1,
+                "weight": 600
+              },
+              {
+                "state": 2,
+                "weight": 120
+              },
+              {
+                "state": 3,
+                "weight": 24
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 7024
+              },
+              {
+                "state": 1,
+                "weight": 2400
+              },
+              {
+                "state": 2,
+                "weight": 480
+              },
+              {
+                "state": 3,
+                "weight": 96
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 1876
+              },
+              {
+                "state": 1,
+                "weight": 100
+              },
+              {
+                "state": 2,
+                "weight": 20
+              },
+              {
+                "state": 3,
+                "weight": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RED2",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 4256
+              },
+              {
+                "state": 1,
+                "weight": 600
+              },
+              {
+                "state": 2,
+                "weight": 120
+              },
+              {
+                "state": 3,
+                "weight": 24
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 5536
+              },
+              {
+                "state": 1,
+                "weight": 3600
+              },
+              {
+                "state": 2,
+                "weight": 720
+              },
+              {
+                "state": 3,
+                "weight": 144
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 1876
+              },
+              {
+                "state": 1,
+                "weight": 100
+              },
+              {
+                "state": 2,
+                "weight": 20
+              },
+              {
+                "state": 3,
+                "weight": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OUT_Q1",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8760
+              },
+              {
+                "state": 1,
+                "weight": 1000
+              },
+              {
+                "state": 2,
+                "weight": 200
+              },
+              {
+                "state": 3,
+                "weight": 40
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8760
+              },
+              {
+                "state": 1,
+                "weight": 1000
+              },
+              {
+                "state": 2,
+                "weight": 200
+              },
+              {
+                "state": 3,
+                "weight": 40
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9008
+              },
+              {
+                "state": 1,
+                "weight": 800
+              },
+              {
+                "state": 2,
+                "weight": 160
+              },
+              {
+                "state": 3,
+                "weight": 32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OUT_Q2",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8884
+              },
+              {
+                "state": 1,
+                "weight": 900
+              },
+              {
+                "state": 2,
+                "weight": 180
+              },
+              {
+                "state": 3,
+                "weight": 36
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8884
+              },
+              {
+                "state": 1,
+                "weight": 900
+              },
+              {
+                "state": 2,
+                "weight": 180
+              },
+              {
+                "state": 3,
+                "weight": 36
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8760
+              },
+              {
+                "state": 1,
+                "weight": 1000
+              },
+              {
+                "state": 2,
+                "weight": 200
+              },
+              {
+                "state": 3,
+                "weight": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OUT_Q3",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9008
+              },
+              {
+                "state": 1,
+                "weight": 800
+              },
+              {
+                "state": 2,
+                "weight": 160
+              },
+              {
+                "state": 3,
+                "weight": 32
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9008
+              },
+              {
+                "state": 1,
+                "weight": 800
+              },
+              {
+                "state": 2,
+                "weight": 160
+              },
+              {
+                "state": 3,
+                "weight": 32
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8512
+              },
+              {
+                "state": 1,
+                "weight": 1200
+              },
+              {
+                "state": 2,
+                "weight": 240
+              },
+              {
+                "state": 3,
+                "weight": 48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OUT_Q4",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9132
+              },
+              {
+                "state": 1,
+                "weight": 700
+              },
+              {
+                "state": 2,
+                "weight": 140
+              },
+              {
+                "state": 3,
+                "weight": 28
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9132
+              },
+              {
+                "state": 1,
+                "weight": 700
+              },
+              {
+                "state": 2,
+                "weight": 140
+              },
+              {
+                "state": 3,
+                "weight": 28
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8264
+              },
+              {
+                "state": 1,
+                "weight": 1400
+              },
+              {
+                "state": 2,
+                "weight": 280
+              },
+              {
+                "state": 3,
+                "weight": 56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OUT_Q5",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9256
+              },
+              {
+                "state": 1,
+                "weight": 600
+              },
+              {
+                "state": 2,
+                "weight": 120
+              },
+              {
+                "state": 3,
+                "weight": 24
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9256
+              },
+              {
+                "state": 1,
+                "weight": 600
+              },
+              {
+                "state": 2,
+                "weight": 120
+              },
+              {
+                "state": 3,
+                "weight": 24
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 7892
+              },
+              {
+                "state": 1,
+                "weight": 1700
+              },
+              {
+                "state": 2,
+                "weight": 340
+              },
+              {
+                "state": 3,
+                "weight": 68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "OUT_Q6",
+        "tier": [
+          {
+            "value": 4,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9380
+              },
+              {
+                "state": 1,
+                "weight": 500
+              },
+              {
+                "state": 2,
+                "weight": 100
+              },
+              {
+                "state": 3,
+                "weight": 20
+              }
+            ]
+          },
+          {
+            "value": 5,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9380
+              },
+              {
+                "state": 1,
+                "weight": 500
+              },
+              {
+                "state": 2,
+                "weight": 100
+              },
+              {
+                "state": 3,
+                "weight": 20
+              }
+            ]
+          },
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 7520
+              },
+              {
+                "state": 1,
+                "weight": 2000
+              },
+              {
+                "state": 2,
+                "weight": 400
+              },
+              {
+                "state": 3,
+                "weight": 80
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MISTS_E0",
+        "tier": {
+          "rarestate": [
+            {
+              "state": 0,
+              "weight": 9380
+            },
+            {
+              "state": 1,
+              "weight": 500
+            },
+            {
+              "state": 2,
+              "weight": 100
+            },
+            {
+              "state": 3,
+              "weight": 20
+            }
+          ]
+        }
+      },
+      {
+        "name": "MISTS_E1",
+        "tier": [
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8760
+              },
+              {
+                "state": 1,
+                "weight": 1000
+              },
+              {
+                "state": 2,
+                "weight": 200
+              },
+              {
+                "state": 3,
+                "weight": 40
+              }
+            ]
+          },
+          {
+            "value": 7,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9380
+              },
+              {
+                "state": 1,
+                "weight": 500
+              },
+              {
+                "state": 2,
+                "weight": 100
+              },
+              {
+                "state": 3,
+                "weight": 20
+              }
+            ]
+          },
+          {
+            "value": 8,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9380
+              },
+              {
+                "state": 1,
+                "weight": 500
+              },
+              {
+                "state": 2,
+                "weight": 100
+              },
+              {
+                "state": 3,
+                "weight": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MISTS_E2",
+        "tier": [
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8140
+              },
+              {
+                "state": 1,
+                "weight": 1500
+              },
+              {
+                "state": 2,
+                "weight": 300
+              },
+              {
+                "state": 3,
+                "weight": 60
+              }
+            ]
+          },
+          {
+            "value": 7,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8760
+              },
+              {
+                "state": 1,
+                "weight": 1000
+              },
+              {
+                "state": 2,
+                "weight": 200
+              },
+              {
+                "state": 3,
+                "weight": 40
+              }
+            ]
+          },
+          {
+            "value": 8,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 9380
+              },
+              {
+                "state": 1,
+                "weight": 500
+              },
+              {
+                "state": 2,
+                "weight": 100
+              },
+              {
+                "state": 3,
+                "weight": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MISTS_E3",
+        "tier": [
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 7520
+              },
+              {
+                "state": 1,
+                "weight": 2000
+              },
+              {
+                "state": 2,
+                "weight": 400
+              },
+              {
+                "state": 3,
+                "weight": 80
+              }
+            ]
+          },
+          {
+            "value": 7,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8140
+              },
+              {
+                "state": 1,
+                "weight": 1500
+              },
+              {
+                "state": 2,
+                "weight": 300
+              },
+              {
+                "state": 3,
+                "weight": 60
+              }
+            ]
+          },
+          {
+            "value": 8,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8760
+              },
+              {
+                "state": 1,
+                "weight": 1000
+              },
+              {
+                "state": 2,
+                "weight": 200
+              },
+              {
+                "state": 3,
+                "weight": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MISTS_E4",
+        "tier": [
+          {
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 6900
+              },
+              {
+                "state": 1,
+                "weight": 2500
+              },
+              {
+                "state": 2,
+                "weight": 500
+              },
+              {
+                "state": 3,
+                "weight": 100
+              }
+            ]
+          },
+          {
+            "value": 7,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 7520
+              },
+              {
+                "state": 1,
+                "weight": 2000
+              },
+              {
+                "state": 2,
+                "weight": 400
+              },
+              {
+                "state": 3,
+                "weight": 80
+              }
+            ]
+          },
+          {
+            "value": 8,
+            "rarestate": [
+              {
+                "state": 0,
+                "weight": 8140
+              },
+              {
+                "state": 1,
+                "weight": 1500
+              },
+              {
+                "state": 2,
+                "weight": 300
+              },
+              {
+                "state": 3,
+                "weight": 60
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

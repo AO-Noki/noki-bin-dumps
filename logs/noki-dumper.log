@@ -1,0 +1,6 @@
+2024-12-06 02:13:17,328 - INFO - Sistema de logging inicializado
+2024-12-06 02:13:17,328 - INFO - Logs serão salvos em: output\logs\noki-dumper.log
+2024-12-06 02:13:17,331 - INFO - Iniciando processo de extração...
+2024-12-06 02:13:17,356 - INFO - Encontrados 2972 arquivos binários
+2024-12-06 02:16:52,246 - INFO - Relatório de validaão salvo em: output\logs\validation\validation\validation_report_20241206_021317.json
+2024-12-06 02:16:52,247 - INFO - Extração concluída com sucesso

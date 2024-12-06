@@ -1,0 +1,405 @@
+{
+  "placeholderspots": {
+    "category": [
+      {
+        "name": "special_season",
+        "spot": [
+          {
+            "banner": {
+              "prefab": "HIGHLAND_DEAD_MONUMENT_GVG_ENERGY_RUSH_A",
+              "season": "GVG_SEASON_ENERGY_RUSH"
+            },
+            "statue": {
+              "prefab": "GVG_ENERGY_RUSH_FIRSTPLACE_CLICKABLE",
+              "season": "GVG_SEASON_ENERGY_RUSH"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "STEPPE_DEAD_MONUMENT_GVG_ENERGY_RUSH_B",
+              "season": "GVG_SEASON_ENERGY_RUSH"
+            },
+            "statue": {
+              "prefab": "GVG_ENERGY_RUSH_SECONDPLACE_CLICKABLE",
+              "season": "GVG_SEASON_ENERGY_RUSH",
+              "placement": 2,
+              "text": "@GVG_SEASON_ENERGY_RUSH_SECOND_PLACE"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "STEPPE_DEAD_MONUMENT_GVG_ENERGY_RUSH_C",
+              "season": "GVG_SEASON_ENERGY_RUSH"
+            },
+            "statue": {
+              "prefab": "GVG_ENERGY_RUSH_THIRDPLACE_CLICKABLE",
+              "season": "GVG_SEASON_ENERGY_RUSH",
+              "placement": 3,
+              "text": "@GVG_SEASON_ENERGY_RUSH_THIRD_PLACE"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HIGHLAND_DEAD_CITY_PORTAL_MONUMENT_A",
+              "season": "GVG_SEASON_AVALONIAN_INVASION"
+            }
+          }
+        ]
+      },
+      {
+        "name": "gvg_season",
+        "spot": [
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_24"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_24",
+              "season": "GVG_SEASON_24"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_24"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_24"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_24",
+              "season": "GVG_SEASON_24"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_24"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_23"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_23",
+              "season": "GVG_SEASON_23"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_23"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_22"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_22",
+              "season": "GVG_SEASON_22"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_22"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_21"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_21",
+              "season": "GVG_SEASON_21"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_21"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_20"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_20",
+              "season": "GVG_SEASON_20"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_20"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_19"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_19",
+              "season": "GVG_SEASON_19"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_19"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_18"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_18",
+              "season": "GVG_SEASON_18"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_18"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_17"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_17",
+              "season": "GVG_SEASON_17"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_17"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_16"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_16",
+              "season": "GVG_SEASON_16"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_16"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_15"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_15",
+              "season": "GVG_SEASON_15"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_15"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_14"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_14",
+              "season": "GVG_SEASON_14"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_14"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_13"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_13",
+              "season": "GVG_SEASON_13"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_13"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_12"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_12",
+              "season": "GVG_SEASON_12"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_12"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_11"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_11",
+              "season": "GVG_SEASON_11"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_11"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_10"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_10",
+              "season": "GVG_SEASON_10"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_10"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_09"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_09",
+              "season": "GVG_SEASON_09"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_09"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_08"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_08",
+              "season": "GVG_SEASON_08"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_08"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_07"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_07",
+              "season": "GVG_SEASON_07"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_07"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_06"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_06",
+              "season": "GVG_SEASON_06"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_06"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_05"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_05",
+              "season": "GVG_SEASON_05"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_05"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_04"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_04",
+              "season": "GVG_SEASON_04"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_04"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_03"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_03",
+              "season": "GVG_SEASON_03"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_03"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_02"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_02",
+              "season": "GVG_SEASON_02"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_02"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_01"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_01",
+              "season": "GVG_SEASON_01"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_01"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_BETA"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

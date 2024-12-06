@@ -1,0 +1,237 @@
+{
+  "cluster": {
+    "origin": "-865 -695",
+    "size": "1320 1300",
+    "minimapBoundsMin": "-780 -600",
+    "minimapBoundsMax": "320 500",
+    "minimapHeightRangeEnabled": true,
+    "minimapHeightRange": "0 12",
+    "minimapBaseLevelEnabled": true,
+    "minimapBaseLevel": 6,
+    "minimapMaterialPreset": "Avalon",
+    "oceanflow": 0.05,
+    "oceanflowspeed": 0.01,
+    "oceananimspeed": 0.4,
+    "templateinstance": [
+      {
+        "id": "instanceslot_00",
+        "ref": "ROAD_F_M2_S6_P6",
+        "pos": "-170 0 -200",
+        "rot": 90,
+        "activelayer": [
+          {
+            "id": "Layer_01"
+          },
+          {
+            "id": "Layer_02"
+          },
+          {
+            "id": "Layer_04"
+          },
+          {
+            "id": "Layer_05"
+          },
+          {
+            "id": "Layer_08"
+          },
+          {
+            "id": "Layer_12"
+          },
+          {
+            "id": "Layer_13"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_01",
+        "ref": "M_ROADS_Medium_Sleeve_01",
+        "pos": "-565 0 -75",
+        "rot": 270,
+        "activelayer": [
+          {
+            "id": "Layer_04"
+          },
+          {
+            "id": "Layer_06"
+          },
+          {
+            "id": "Layer_08"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_02",
+        "ref": "S_ROADS_DNG_SOLO_Entrance_01",
+        "pos": "-185 0 25",
+        "activelayer": [
+          {
+            "id": "Layer_05"
+          },
+          {
+            "id": "Layer_07"
+          },
+          {
+            "id": "Layer_15"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_03",
+        "ref": "S_ROADS_Portal_01",
+        "pos": "-285 0 -415",
+        "rot": 270,
+        "activelayer": {
+          "id": "Layer_03"
+        }
+      },
+      {
+        "id": "instanceslot_04",
+        "ref": "S_ROADS_EMPTY_Straight_01",
+        "pos": "-385 0 5",
+        "rot": 90,
+        "activelayer": [
+          {
+            "id": "Layer_03"
+          },
+          {
+            "id": "Layer_05"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_05",
+        "ref": "S_ROADS_Portal_01",
+        "pos": "95 0 325",
+        "rot": 90,
+        "activelayer": {
+          "id": "Layer_03"
+        }
+      },
+      {
+        "id": "instanceslot_06",
+        "ref": "S_ROADS_RES_OreRock_01",
+        "pos": "-465 0 -435",
+        "rot": 90,
+        "activelayer": [
+          {
+            "id": "Layer_01"
+          },
+          {
+            "id": "Layer_17"
+          },
+          {
+            "id": "Layer_22"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_07",
+        "ref": "S_ROADS_RES_HideOre_01",
+        "pos": "95 0 -255",
+        "rot": 270,
+        "activelayer": [
+          {
+            "id": "Layer_01"
+          },
+          {
+            "id": "Layer_07"
+          },
+          {
+            "id": "Layer_22"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_08",
+        "ref": "M_ROADS_PVE_GROUP_02",
+        "pos": "-85 0 -155",
+        "rot": 90,
+        "activelayer": [
+          {
+            "id": "Layer_01"
+          },
+          {
+            "id": "Layer_04"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_09",
+        "ref": "M_ROADS_RES_FiberHide_01",
+        "pos": "-565 0 -75",
+        "activelayer": [
+          {
+            "id": "Layer_02"
+          },
+          {
+            "id": "Layer_10"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_10",
+        "ref": "M_ROADS_Medium_Sleeve_01",
+        "pos": "-85 0 -155",
+        "rot": 270,
+        "activelayer": [
+          {
+            "id": "Layer_05"
+          },
+          {
+            "id": "Layer_06"
+          },
+          {
+            "id": "Layer_08"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_11",
+        "ref": "S_ROADS_Portal_01",
+        "pos": "-565 0 205",
+        "activelayer": {
+          "id": "Layer_03"
+        }
+      },
+      {
+        "id": "instanceslot_12",
+        "ref": "S_ROADS_Portal_01",
+        "pos": "195 0 -415",
+        "rot": 270,
+        "activelayer": {
+          "id": "Layer_03"
+        }
+      },
+      {
+        "id": "instanceslot_13",
+        "ref": "S_ROADS_EMPTY_Straight_01",
+        "pos": "-165 0 -415",
+        "rot": 90,
+        "activelayer": [
+          {
+            "id": "Layer_02"
+          },
+          {
+            "id": "Layer_05"
+          }
+        ]
+      },
+      {
+        "id": "instanceslot_14",
+        "ref": "S_ROADS_PVE_SOLO_06",
+        "pos": "-285 0 405",
+        "activelayer": [
+          {
+            "id": "Layer_03"
+          },
+          {
+            "id": "Layer_04"
+          },
+          {
+            "id": "Layer_08"
+          }
+        ]
+      }
+    ]
+  }
+}

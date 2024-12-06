@@ -1,0 +1,955 @@
+{
+  "chatmoderation": {
+    "punishmentreason": [
+      {
+        "reason": "Breached T&Cs",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_TERMS_AND_CONDITIONS",
+        "escalations": [
+          {
+            "timeAmount": 7,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Cheat Accusations",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_CHEAT_ACCUSATION",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 30,
+            "timeType": "MINUTES",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Discrimination",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_DISCRIMINATION_BIGOTRY",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Discussing Mod Dec.",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_MODDECISION",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 30,
+            "timeType": "MINUTES",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Excessive Toxicity",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_TOXICITY",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 12,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "Hate Speech",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_HATESPEECH",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Help Ch. Trolling",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_HELP_TROLLING",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 12,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Improper Content",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_INAPPROPRIATE_CONTENT",
+        "escalations": [
+          {
+            "timeAmount": 12,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Libel",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_LIBEL",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Malicious Instig.",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_MALICIOUS_INSTIGATION",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 12,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "Mimic Mods/Staff",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_IMPERSONATING_MOD",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Mod Harassment",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_HARASSING_MODS",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "Pol./Rel. Discussion",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_DISCUSSION",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "RMT Joke",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_RMT_JOKE",
+        "escalations": [
+          {
+            "timeAmount": 7,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Spam/Excessive Caps",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_SPAM",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "Spam Wave",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_SPAM_WAVE",
+        "escalations": [
+          {
+            "timeAmount": 30,
+            "timeType": "MINUTES",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "Wipe Trolling",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_WIPE_TROLL",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 12,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Wrong Language Ch.",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_LANG_CHANNEL",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "Wrong Topic Ch.",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_TOPIC_CHANNEL",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 2,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          }
+        ]
+      },
+      {
+        "reason": "Xtrm Anti Albion/Devs",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_TOXIC_GAME",
+        "escalations": [
+          {
+            "timeAmount": 1,
+            "timeType": "MINUTES",
+            "punishmentType": "WARN"
+          },
+          {
+            "timeAmount": 6,
+            "timeType": "HOURS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "DAYS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "Xtrm Hate Speech/Pedo",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_EXTREME_HATESPEECH",
+        "escalations": [
+          {
+            "timeAmount": 4,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 8,
+            "timeType": "WEEKS",
+            "punishmentType": "MUTE"
+          },
+          {
+            "timeAmount": 1,
+            "timeType": "FOREVER",
+            "punishmentType": "MUTE",
+            "gmNotify": true
+          }
+        ]
+      },
+      {
+        "reason": "! Bots/Hacks Ad",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_HACKS_BOTS_AD",
+        "escalations": {
+          "timeAmount": 1,
+          "timeType": "FOREVER",
+          "punishmentType": "MUTE",
+          "gmNotify": true
+        }
+      },
+      {
+        "reason": "! Doxxing/Phishing",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_DOXXING_PHISHING",
+        "escalations": {
+          "timeAmount": 1,
+          "timeType": "FOREVER",
+          "punishmentType": "MUTE",
+          "gmNotify": true
+        }
+      },
+      {
+        "reason": "! Gambling Ad",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_GAMBLINGAD",
+        "escalations": {
+          "timeAmount": 1,
+          "timeType": "FOREVER",
+          "punishmentType": "MUTE",
+          "gmNotify": true
+        }
+      },
+      {
+        "reason": "! Name Change",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_INAPPROPRIATE_NAME",
+        "escalations": {
+          "timeAmount": 1,
+          "timeType": "FOREVER",
+          "punishmentType": "MUTE",
+          "gmNotify": true
+        }
+      },
+      {
+        "reason": "! RL Threats",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_RLTHREAT",
+        "escalations": {
+          "timeAmount": 1,
+          "timeType": "FOREVER",
+          "punishmentType": "MUTE",
+          "gmNotify": true
+        }
+      },
+      {
+        "reason": "! RMT Ad",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_RMTAD",
+        "escalations": {
+          "timeAmount": 1,
+          "timeType": "FOREVER",
+          "punishmentType": "MUTE",
+          "gmNotify": true
+        }
+      },
+      {
+        "reason": "! Shadowmute",
+        "loca": "@PREDEFINED_MOD_CMTOOL_MESSAGE_BOTSPAM",
+        "escalations": {
+          "timeAmount": 1,
+          "timeType": "FOREVER",
+          "punishmentType": "SHADOWMUTE",
+          "gmNotify": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "patch": {
+    "replace": {
+      "sel": "factionwarfare/redzoneevent",
+      "attribute": {
+        "name": "locktime",
+        "newvalue": "08:30:00Z"
+      }
+    }
+  }
+}

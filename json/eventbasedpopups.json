@@ -1,0 +1,1611 @@
+{
+  "eventbasedpopups": {
+    "frequencyrules": {
+      "frequencyrule": [
+        {
+          "uniquename": "NONE_PREMIUM",
+          "timeframes": {
+            "timeframe": [
+              {
+                "range": "1-2",
+                "minutes": 15
+              },
+              {
+                "range": "2-3",
+                "minutes": 30
+              },
+              {
+                "range": "3-4",
+                "minutes": 45
+              }
+            ]
+          },
+          "conditions": {
+            "and": {
+              "not": {
+                "ifhaspremium": {}
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "SMALL_PREMIUM",
+          "timeframes": {
+            "timeframe": {
+              "range": "1-2",
+              "minutes": 15
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifhaspremium": {},
+              "ifhaspremiumdays": {
+                "operation": "less",
+                "value": 7
+              },
+              "not": {
+                "ifhasrecurringsubscription": {}
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "BIG_PREMIUM",
+          "timeframes": {
+            "timeframe": {
+              "range": "1-2",
+              "minutes": 15
+            }
+          },
+          "conditions": {
+            "or": {
+              "ifhaspremiumdays": {
+                "operation": "greaterOrEqual",
+                "value": 7
+              },
+              "ifhasrecurringsubscription": {}
+            }
+          }
+        }
+      ]
+    },
+    "popupqueue": {
+      "allowedtriggers": {
+        "trigger": {
+          "action": "GameLogin",
+          "totalpopups": 4
+        }
+      },
+      "allowedcategories": {
+        "category": [
+          {
+            "name": "Announcements",
+            "totalpopups": 1
+          },
+          {
+            "name": "Advertisement",
+            "totalpopups": 1
+          },
+          {
+            "name": "GameFeature",
+            "totalpopups": 1
+          },
+          {
+            "name": "ActivityHUB",
+            "totalpopups": 1
+          },
+          {
+            "name": "Mobile",
+            "totalpopups": 1
+          }
+        ]
+      }
+    },
+    "popups": {
+      "popup": [
+        {
+          "uniquename": "FULLY_ENJOY_ALBION",
+          "priority": 4,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_FULLY_ENJOY_ALBION_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FULLY_ENJOY_ALBION_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_FULLY_ENJOY_ALBION",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhaspremium": {}
+              },
+              "ifhasseenpopup": {
+                "uniquename": "FULLY_ENJOY_ALBION",
+                "frequency": "Hours",
+                "timefactor": 68,
+                "operation": "less",
+                "amount": 1
+              },
+              "ifhasseensinceloginspast": {
+                "uniquename": "FULLY_ENJOY_ALBION",
+                "amount": 3
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "ISLAND_LIFE_LIVING",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_ISLAND_LIFE_LIVING_TITLE",
+          "description": "@EVENT_BASED_POPUPS_ISLAND_LIFE_LIVING_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_ISLAND_LIFE_LIVING",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "OpenIslandMerchantUi"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": [
+                {
+                  "ifhaspremium": {}
+                },
+                {
+                  "ifownsisland": {}
+                }
+              ],
+              "ifhasseenpopup": {
+                "uniquename": "ISLAND_LIFE_LIVING",
+                "frequency": "Days",
+                "timefactor": 7,
+                "operation": "less",
+                "amount": 1
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "FRUITS_NONE_PREMIUM",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_FRUITS_NONE_PREMIUM_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FRUITS_NONE_PREMIUM_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_FRUITS_NONE_PREMIUM",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "FarmingActivity"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhaspremium": {}
+              },
+              "ifhasseenpopup": {
+                "uniquename": "FRUITS_NONE_PREMIUM",
+                "frequency": "Days",
+                "timefactor": 7,
+                "operation": "less",
+                "amount": 1
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "FRUITS_EXTEND_PREMIUM",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_FRUITS_EXTEND_PREMIUM_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FRUITS_EXTEND_PREMIUM_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_FRUITS_NONE_PREMIUM",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "FarmingActivity"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "ifhaspremium": {},
+              "ifhaspremiumdays": {
+                "operation": "less",
+                "value": 7
+              },
+              "not": {
+                "ifhasrecurringsubscription": {}
+              },
+              "ifhasseenpopup": {
+                "uniquename": "FRUITS_EXTEND_PREMIUM",
+                "frequency": "Hours",
+                "timefactor": 68,
+                "operation": "less",
+                "amount": 1
+              },
+              "ifhasseensinceloginspast": {
+                "uniquename": "FRUITS_EXTEND_PREMIUM",
+                "amount": 3
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "DONT_MISS_OUT",
+          "priority": 6,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_DONT_MISS_OUT_TITLE",
+          "description": "@EVENT_BASED_POPUPS_DONT_MISS_OUT_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_DONT_MISS_OUT",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "ifhaspremium": {},
+              "ifhaspremiumdays": {
+                "operation": "less",
+                "value": 4
+              },
+              "ifhasseenpopup": {
+                "uniquename": "DONT_MISS_OUT",
+                "frequency": "Hours",
+                "timefactor": 50,
+                "operation": "less",
+                "amount": 1
+              },
+              "not": {
+                "ifhasrecurringsubscription": {}
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "STAY_FOCUSED_PREMIUM",
+          "priority": 4,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_STAY_FOCUSED_PREMIUM_TITLE",
+          "description": "@EVENT_BASED_POPUPS_STAY_FOCUSED_PREMIUM_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_STAY_FOCUSED_PREMIUM",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "CompletedCraftingWithFocus"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "ifhaspremiumdays": {
+                "operation": "less",
+                "value": 7
+              },
+              "not": {
+                "ifhasrecurringsubscription": {}
+              },
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "STAY_FOCUSED_PREMIUM",
+                  "frequency": "Today",
+                  "operation": "less",
+                  "amount": 1
+                },
+                {
+                  "uniquename": "STAY_FOCUSED_PREMIUM",
+                  "frequency": "ThisWeek",
+                  "operation": "less",
+                  "amount": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "STAY_FOCUSED_NONE_PREMIUM",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_STAY_FOCUSED_NONE_PREMIUM_TITLE",
+          "description": "@EVENT_BASED_POPUPS_STAY_FOCUSED_NONE_PREMIUM_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_STAY_FOCUSED_NONE_PREMIUM",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "OpenAnyBuildingUiWithCraftFocus"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhaspremium": {}
+              },
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "STAY_FOCUSED_NONE_PREMIUM",
+                  "frequency": "Today",
+                  "operation": "less",
+                  "amount": 1
+                },
+                {
+                  "uniquename": "STAY_FOCUSED_NONE_PREMIUM",
+                  "frequency": "ThisWeek",
+                  "operation": "less",
+                  "amount": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "PLAY_THE_MARKET",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_PLAY_THE_MARKET_TITLE",
+          "description": "@EVENT_BASED_POPUPS_PLAY_THE_MARKET_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_PLAY_THE_MARKET",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "MarketplaceCreateSellOrder"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhaspremium": {}
+              },
+              "ifhasseenpopup": {
+                "uniquename": "PLAY_THE_MARKET",
+                "frequency": "Days",
+                "timefactor": 7,
+                "operation": "less",
+                "amount": 1
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "MASTER_GATHERER",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_MASTER_GATHERER_TITLE",
+          "description": "@EVENT_BASED_POPUPS_MASTER_GATHERER_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_MASTER_GATHERER",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GatheringNodeLevelCompleted"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhaspremium": {}
+              },
+              "ifhasseenpopup": {
+                "uniquename": "MASTER_GATHERER",
+                "frequency": "Hours",
+                "timefactor": 68,
+                "operation": "less",
+                "amount": 1
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "ADVENTURE_AWAITS",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_ADVENTURE_AWAITS_TITLE",
+          "description": "@EVENT_BASED_POPUPS_ADVENTURE_AWAITS_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_ADVENTURE_AWAITS",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "OpenAdventuresChallengeUi"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": [
+                {
+                  "ifhaspremium": {}
+                },
+                {
+                  "ifhasseensincenewpersonalseasonchest": {
+                    "uniquename": "ADVENTURE_AWAITS",
+                    "targetfilter": "character"
+                  }
+                }
+              ],
+              "ifhasseenanypopupfromcategory": {
+                "amount": 0,
+                "operation": "equals",
+                "frequency": "AllTime",
+                "category": "Premium"
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "SPOILS_OF_WAR",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_SPOILS_OF_WAR_TITLE",
+          "description": "@EVENT_BASED_POPUPS_SPOILS_OF_WAR_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_SPOILS_OF_WAR",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": [
+              {
+                "action": "OpenFactionWarfareUi"
+              },
+              {
+                "action": "OpenFactionFlaggingUi"
+              }
+            ]
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": [
+                {
+                  "ifhaspremium": {}
+                },
+                {
+                  "ifhasseensincenewfactionchest": {
+                    "uniquename": "SPOILS_OF_WAR"
+                  }
+                }
+              ],
+              "ifhasseenanypopupfromcategory": {
+                "amount": 0,
+                "operation": "equals",
+                "frequency": "AllTime",
+                "category": "Premium"
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "ARISE_CONQUER",
+          "priority": 5,
+          "type": "Premium",
+          "title": "@EVENT_BASED_POPUPS_ARISE_CONQUER_TITLE",
+          "description": "@EVENT_BASED_POPUPS_ARISE_CONQUER_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_ARISE_CONQUER",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "OpenConquerorsChallengeUi"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": [
+                {
+                  "ifhaspremium": {}
+                },
+                {
+                  "ifhasseensincenewseasonstart": {
+                    "uniquename": "ARISE_CONQUER"
+                  }
+                }
+              ],
+              "ifhasseenanypopupfromcategory": {
+                "amount": 0,
+                "operation": "equals",
+                "frequency": "AllTime",
+                "category": "Premium"
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "FUNDS_LOW",
+          "priority": 5,
+          "type": "Gold",
+          "title": "@EVENT_BASED_POPUPS_FUNDS_LOW_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FUNDS_LOW_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_FUNDS_LOW",
+          "categories": {
+            "category": [
+              {
+                "name": "Gold"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "ClickingOkOnNotEnoughSilverMessage"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "ifhasseenpopup": {
+                "uniquename": "FUNDS_LOW",
+                "frequency": "Today",
+                "operation": "less",
+                "amount": 1
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "SET_OFF_RIGHT",
+          "priority": 6,
+          "type": "Bundles",
+          "title": "@EVENT_BASED_POPUPS_SET_OFF_RIGHT_TITLE",
+          "description": "@EVENT_BASED_POPUPS_SET_OFF_RIGHT_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_SET_OFF_RIGHT",
+          "categories": {
+            "category": [
+              {
+                "name": "Premium"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhaspremium": {}
+              },
+              "ifhasseenpopup": {
+                "uniquename": "SET_OFF_RIGHT",
+                "frequency": "Hours",
+                "timefactor": 68,
+                "operation": "less",
+                "amount": 1
+              },
+              "ifhasseensinceloginspast": {
+                "uniquename": "SET_OFF_RIGHT",
+                "amount": 3
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "GUEST_ACCOUNT_INCENTIVIZATION",
+          "priority": 1,
+          "type": "GuestAccount",
+          "categories": {
+            "category": [
+              {
+                "name": "GuestAccount"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": [
+              {
+                "action": "OpenFastTravelUi"
+              },
+              {
+                "action": "GameLogin"
+              }
+            ]
+          },
+          "conditions": {
+            "or": {
+              "and": [
+                {
+                  "ifisguestaccount": {},
+                  "iftriggeredthrough": {
+                    "action": "OpenFastTravelUi"
+                  },
+                  "ifhasseenpopup": {
+                    "uniquename": "GUEST_ACCOUNT_INCENTIVIZATION",
+                    "frequency": "AllTime",
+                    "operation": "lessOrEqual",
+                    "amount": 1
+                  }
+                },
+                {
+                  "not": {
+                    "iftutorialcompleted": {}
+                  },
+                  "ifisguestaccount": {},
+                  "ifguestlogincount": {
+                    "operation": "equals",
+                    "value": 2
+                  },
+                  "ifhasseenpopup": {
+                    "uniquename": "GUEST_ACCOUNT_INCENTIVIZATION",
+                    "frequency": "AllTime",
+                    "operation": "equals",
+                    "amount": 0
+                  }
+                },
+                {
+                  "ifisguestaccount": {},
+                  "iftutorialcompleted": {},
+                  "ifhasseenpopup": [
+                    {
+                      "uniquename": "GUEST_ACCOUNT_INCENTIVIZATION",
+                      "frequency": "AllTime",
+                      "operation": "greaterOrEqual",
+                      "amount": 1
+                    },
+                    {
+                      "uniquename": "GUEST_ACCOUNT_INCENTIVIZATION",
+                      "frequency": "Hours",
+                      "timefactor": 12,
+                      "operation": "equals",
+                      "amount": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "SEASON_WINNER",
+          "priority": 4,
+          "type": "SeasonWinner",
+          "categories": {
+            "category": [
+              {
+                "name": "SeasonWinner"
+              },
+              {
+                "name": "GameFeature"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhasseenseasonwinnerpopup": {
+                  "uniquename": "SEASON_WINNER"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "CROSS_PLATFORM",
+          "priority": 9,
+          "type": "CrossPlatform",
+          "categories": {
+            "category": [
+              {
+                "name": "CrossPlatform"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifreceivedcrossplatformreward": {}
+              },
+              "or": {
+                "and": [
+                  {
+                    "ifonplatform": {
+                      "platform": "Mobile"
+                    },
+                    "ifaccountagedays": {
+                      "operation": "greaterOrEqual",
+                      "value": 3
+                    },
+                    "ifhasseenpopup": {
+                      "uniquename": "CROSS_PLATFORM",
+                      "frequency": "AllTime",
+                      "operation": "equals",
+                      "amount": 0
+                    }
+                  },
+                  {
+                    "not": {
+                      "ifonplatform": {
+                        "platform": "Mobile"
+                      }
+                    },
+                    "ifaccountagedays": {
+                      "operation": "greaterOrEqual",
+                      "value": 7
+                    },
+                    "ifhasseenpopup": {
+                      "uniquename": "CROSS_PLATFORM",
+                      "frequency": "AllTime",
+                      "operation": "equals",
+                      "amount": 0
+                    }
+                  },
+                  {
+                    "ifhasseenpopup": [
+                      {
+                        "uniquename": "CROSS_PLATFORM",
+                        "frequency": "AllTime",
+                        "operation": "greaterOrEqual",
+                        "amount": 1
+                      },
+                      {
+                        "uniquename": "CROSS_PLATFORM",
+                        "frequency": "Hours",
+                        "timefactor": 68,
+                        "operation": "less",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "ACTIVITY_HUB",
+          "priority": 1,
+          "type": "ActivityHUB",
+          "categories": {
+            "category": {
+              "name": "ActivityHUB"
+            }
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "ifenabledactivitypopuponlogin": {},
+              "ifhasseenpopup": {
+                "uniquename": "ACTIVITY_HUB",
+                "frequency": "Days",
+                "timefactor": 1,
+                "operation": "less",
+                "amount": 1,
+                "targetfilter": "character"
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "FEATURED_FEATURE",
+          "priority": 10,
+          "type": "FeaturedFeature",
+          "categories": {
+            "category": [
+              {
+                "name": "FeaturedFeature"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "iftutorialcompleted": {},
+              "not": {
+                "ifhasseenfeaturedfeature": {}
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "FACTION_WARFARE_UNLOCK",
+          "priority": 7,
+          "type": "FactionWarfareUnlock",
+          "categories": {
+            "category": [
+              {
+                "name": "FactionWarfare"
+              },
+              {
+                "name": "GameFeature"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifhasunlockedfactionwarfare": {},
+              "ifhasseenpopup": {
+                "uniquename": "FACTION_WARFARE_UNLOCK",
+                "frequency": "AllTime",
+                "operation": "equals",
+                "amount": 0,
+                "targetfilter": "character"
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "MOBILE_STORE_RATING",
+          "priority": 9,
+          "type": "MobileStoreRating",
+          "categories": {
+            "category": [
+              {
+                "name": "MobileStoreRating"
+              },
+              {
+                "name": "Mobile"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": [
+              {
+                "action": "GameLogin"
+              },
+              {
+                "action": "ClusterChange"
+              }
+            ]
+          },
+          "conditions": {
+            "and": {
+              "ifonplatform": {
+                "platform": "MobileStore"
+              },
+              "iftutorialcompleted": {},
+              "ifcharacteronlinehours": {
+                "operation": "greaterOrEqual",
+                "value": 5
+              },
+              "ifhasseenpopup": {
+                "uniquename": "MOBILE_STORE_RATING",
+                "frequency": "Days",
+                "timefactor": 7,
+                "operation": "equals",
+                "amount": 0
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "JOURNAL_INTRODUCTION",
+          "priority": 11,
+          "type": "JournalIntroduction",
+          "categories": {
+            "category": [
+              {
+                "name": "JournalIntroduction"
+              },
+              {
+                "name": "GameFeature"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "ClusterChange"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifisinstartercluster": {},
+              "iftutorialcompletedthissession": {},
+              "ifhasseenpopup": {
+                "uniquename": "JOURNAL_INTRODUCTION",
+                "frequency": "AllTime",
+                "operation": "less",
+                "amount": 1,
+                "targetfilter": "character"
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "PORTAL_CITY_INFO",
+          "priority": 10,
+          "type": "GenericTutorial",
+          "categories": {
+            "category": [
+              {
+                "name": "GenericTutorial"
+              },
+              {
+                "name": "CityPortal"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "ClusterChange"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifincitytype": {
+                "citytype": "PortalCity"
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "GUILD_FINDER_INFO",
+          "priority": 10,
+          "type": "GuildFinder",
+          "title": "@EVENT_BASED_POPUPS_GUILD_FINDER_TITLE",
+          "description": "@EVENT_BASED_POPUPS_GUILD_FINDER_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_GUILD_FINDER",
+          "categories": {
+            "category": [
+              {
+                "name": "GameFeature"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "ClusterChange"
+            }
+          },
+          "conditions": {
+            "and": {
+              "not": {
+                "ifisinguild": {}
+              },
+              "iftutorialcompleted": {},
+              "ifaccountagedays": {
+                "value": 30,
+                "operation": "lessOrEqual"
+              },
+              "ifhasseenpopup": {
+                "uniquename": "GUILD_FINDER_INFO",
+                "frequency": "Days",
+                "operation": "equals",
+                "timefactor": 7,
+                "amount": 0
+              }
+            }
+          }
+        },
+        {
+          "uniquename": "GUILD_FINDER_VETERAN_INFO",
+          "priority": 10,
+          "type": "GuildFinder",
+          "title": "@EVENT_BASED_POPUPS_GUILD_FINDER_VETERAN_TITLE",
+          "description": "@EVENT_BASED_POPUPS_GUILD_FINDER_VETERAN_DESCRIPTION",
+          "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_GUILD_FINDER",
+          "categories": {
+            "category": [
+              {
+                "name": "GameFeature"
+              },
+              {
+                "name": "Advertisement"
+              }
+            ]
+          },
+          "triggers": {
+            "trigger": {
+              "action": "ClusterChange"
+            }
+          },
+          "conditions": {
+            "and": {
+              "not": {
+                "ifisinguild": {}
+              },
+              "iftutorialcompleted": {},
+              "ifaccountagedays": {
+                "value": 30,
+                "operation": "greater"
+              },
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "GUILD_FINDER_VETERAN_INFO",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 28,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "GUILD_FINDER_INFO",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "FOUNDER_PACK_LAST_CHANCE_BUY",
+          "priority": 10,
+          "type": "EuropeFounderPacks",
+          "title": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_BUY_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_BUY_DESCRIPTION",
+          "imagepath": "Gui/Advertisements/ad_founder_eu_founderpacks",
+          "categories": {
+            "category": {
+              "name": "Advertisement"
+            }
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifvaliddate": {
+                "end": "2024-06-17T09:00:00"
+              },
+              "ifhaseuropefounderstate": {
+                "founderState": "none"
+              },
+              "iseuropecontext": {},
+              "ifonplatform": {
+                "platform": "Desktop"
+              },
+              "iftutorialcompleted": {},
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_BUY",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_OFF_MARKET",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_CROSS_PURCHASE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_UPGRADE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "FOUNDER_PACK_LAST_CHANCE_OFF_MARKET",
+          "priority": 10,
+          "type": "EuropeFounderPacks",
+          "title": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_BUY_OFF_MARKET_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_BUY_OFF_MARKET_DESCRIPTION",
+          "imagepath": "Gui/Advertisements/ad_founder_eu_founderpacks",
+          "categories": {
+            "category": {
+              "name": "Advertisement"
+            }
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifvaliddate": {
+                "end": "2024-06-17T09:00:00"
+              },
+              "ifhaseuropefounderstate": {
+                "founderState": "none"
+              },
+              "not": {
+                "iseuropecontext": {}
+              },
+              "ifonplatform": {
+                "platform": "Desktop"
+              },
+              "iftutorialcompleted": {},
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_BUY",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_OFF_MARKET",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_CROSS_PURCHASE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_UPGRADE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "FOUNDER_PACK_LAST_CHANCE_CROSS_PURCHASE",
+          "priority": 10,
+          "type": "EuropeFounderPacks",
+          "title": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_CROSS_PURCHASE_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_CROSS_PURCHASE_DESCRIPTION",
+          "imagepath": "Gui/Advertisements/ad_founder_eu_founderpacks",
+          "categories": {
+            "category": {
+              "name": "Advertisement"
+            }
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifvaliddate": {
+                "end": "2024-06-17T09:00:00"
+              },
+              "ifhaseuropefounderstate": {
+                "founderState": "crystal"
+              },
+              "ifonplatform": {
+                "platform": "Desktop"
+              },
+              "iftutorialcompleted": {},
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_BUY",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_OFF_MARKET",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_CROSS_PURCHASE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_UPGRADE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "FOUNDER_PACK_LAST_CHANCE_UPGRADE",
+          "priority": 10,
+          "type": "EuropeFounderPacks",
+          "title": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_UPGRADE_TITLE",
+          "description": "@EVENT_BASED_POPUPS_FOUNDER_PACK_LAST_CHANCE_UPGRADE_DESCRIPTION",
+          "imagepath": "Gui/Advertisements/ad_founder_eu_founderpacks",
+          "categories": {
+            "category": {
+              "name": "Advertisement"
+            }
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifvaliddate": {
+                "end": "2024-06-17T09:00:00"
+              },
+              "not": [
+                {
+                  "ifhaseuropefounderstate": {
+                    "founderState": "none"
+                  }
+                },
+                {
+                  "ifhaseuropefounderstate": {
+                    "founderState": "crystal"
+                  }
+                }
+              ],
+              "ifonplatform": {
+                "platform": "Desktop"
+              },
+              "iftutorialcompleted": {},
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_BUY",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_OFF_MARKET",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_CROSS_PURCHASE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "FOUNDER_PACK_LAST_CHANCE_UPGRADE",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "lootchestpopup": {
+        "uniquename": "TWITCH_DROPS",
+        "type": "LootChests",
+        "guitemplate": "LootChest",
+        "priority": 0,
+        "title": "@EVENT_BASED_POPUPS_TITLE_TWITCH_DROPS",
+        "description": "@EVENT_BASED_POPUPS_DESCRIPTION_TWITCH_DROPS",
+        "rewardstitle": "@EVENT_BASED_POPUPS_REWARDS_TITLE_TWITCH_DROPS",
+        "buttonloca": "@EVENT_BASED_POPUPS_BUTTON_TWITCH_DROPS",
+        "imagepath": "Gui/EventBasedPopups/EVENT_POPUP_TWITCH_DROPS",
+        "flagpath": "Gui/EventBasedPopups/icons_shop_flag_purple_big",
+        "flagiconpath": "Gui/EventBasedPopups/icon_twitch_drops",
+        "categories": {
+          "category": {
+            "name": "Advertisement"
+          }
+        },
+        "triggers": {
+          "trigger": {
+            "action": "GameLogin"
+          }
+        },
+        "conditions": {
+          "and": {
+            "ifvaliddate": {
+              "start": "2024-06-03T10:15:00"
+            },
+            "iftutorialcompleted": {},
+            "not": {
+              "ifisguestaccount": {}
+            },
+            "ifhasseenpopup": {
+              "uniquename": "TWITCH_DROPS",
+              "frequency": "Days",
+              "operation": "equals",
+              "timefactor": 7,
+              "amount": 0
+            }
+          }
+        },
+        "possibledrops": {
+          "item": [
+            {
+              "itemid": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN"
+            },
+            {
+              "itemid": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST"
+            },
+            {
+              "itemid": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST"
+            }
+          ]
+        }
+      },
+      "genericadvertisement": [
+        {
+          "uniquename": "MASTERY_PACKS_NATIVE_OFFER",
+          "priority": 10,
+          "type": "GenericAdvertisement",
+          "guitemplate": "GenericAdvertisement",
+          "title": "@EVENT_BASED_POPUPS_MASTERY_PACK_NATIVE_TITLE",
+          "description": "@EVENT_BASED_POPUPS_MASTERY_PACK_NATIVE_DESCRIPTION",
+          "imagepath": "Gui/Advertisements/ad_mastery_packs_2024",
+          "linkmode": "Store",
+          "buttonloca": "@GENERIC_BUY_NOW",
+          "flagiconpath": "",
+          "flagpath": "",
+          "categories": {
+            "category": {
+              "name": "Advertisement"
+            }
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifvaliddate": {
+                "start": "2024-10-28T12:00:00",
+                "end": "2025-02-17T09:00:00"
+              },
+              "not": {
+                "iseuropecontext": {}
+              },
+              "ifonplatform": {
+                "platform": "Desktop"
+              },
+              "iftutorialcompleted": {},
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "MASTERY_PACKS_NATIVE_OFFER",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "MASTERY_PACKS_NON_NATIVE_OFFER",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "uniquename": "MASTERY_PACKS_NON_NATIVE_OFFER",
+          "priority": 10,
+          "type": "GenericAdvertisement",
+          "guitemplate": "GenericAdvertisement",
+          "title": "@EVENT_BASED_POPUPS_MASTERY_PACK_NON_NATIVE_TITLE",
+          "description": "@EVENT_BASED_POPUPS_MASTERY_PACK_NON_NATIVE_DESCRIPTION",
+          "imagepath": "Gui/Advertisements/ad_mastery_packs_2024",
+          "linkmode": "Url",
+          "customurl": "https://albiononline.com/news/warden-mastery-packs-available",
+          "buttonloca": "@GENERIC_LEARN_MORE",
+          "flagiconpath": "",
+          "flagpath": "",
+          "categories": {
+            "category": {
+              "name": "Advertisement"
+            }
+          },
+          "triggers": {
+            "trigger": {
+              "action": "GameLogin"
+            }
+          },
+          "conditions": {
+            "and": {
+              "ifvaliddate": {
+                "start": "2024-10-28T12:00:00",
+                "end": "2025-02-17T09:00:00"
+              },
+              "not": [
+                {
+                  "iseuropecontext": {}
+                },
+                {
+                  "ifonplatform": {
+                    "platform": "Desktop"
+                  }
+                }
+              ],
+              "iftutorialcompleted": {},
+              "ifhasseenpopup": [
+                {
+                  "uniquename": "MASTERY_PACKS_NATIVE_OFFER",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                },
+                {
+                  "uniquename": "MASTERY_PACKS_NON_NATIVE_OFFER",
+                  "frequency": "Days",
+                  "operation": "equals",
+                  "timefactor": 7,
+                  "amount": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

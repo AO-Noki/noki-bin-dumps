@@ -1,0 +1,11 @@
+{
+  "patch": {
+    "replace": {
+      "sel": "guildfinder/settings",
+      "attribute": {
+        "name": "dataupdatetimestamp",
+        "newvalue": "10:00:00"
+      }
+    }
+  }
+}

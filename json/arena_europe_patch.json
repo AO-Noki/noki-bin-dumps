@@ -1,0 +1,52 @@
+{
+  "patch": {
+    "remove": [
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_16']"
+      },
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_17']"
+      },
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_18']"
+      },
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_19']"
+      },
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_20']"
+      },
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_21']"
+      },
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_22']",
+        "attribute": {
+          "name": "newseasonrankdownid"
+        }
+      }
+    ],
+    "replace": [
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_22']",
+        "attribute": [
+          {
+            "name": "displayname",
+            "newvalue": "@SEASONS_SEASONNAME_SEASON_BETA"
+          },
+          {
+            "name": "startdatetimeref",
+            "newvalue": "EU_BETA_START"
+          }
+        ]
+      },
+      {
+        "sel": "arena/arenaseasons/arenaseason[@name='SEASON_23']",
+        "attribute": {
+          "name": "startdatetimeref",
+          "newvalue": "EU_BETA_END"
+        }
+      }
+    ]
+  }
+}

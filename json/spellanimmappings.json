@@ -1,0 +1,14 @@
+{
+  "spellanimationmappinginfos": {
+    "mappinginfo": {
+      "uniquename": "CAST_DIRECTED_PROJECTILE",
+      "default": {
+        "castanimation": "MagicStaff2H_AoeSpell"
+      },
+      "weapon": {
+        "weaponanimationtype": "staff",
+        "castanimation": "melee_piercestrike"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Relatório de Validação - 2024-12-06T02:16:52.246919
+--------------------------------------------------------------------------------
+
+Total de arquivos processados: 2342
+Validações com falha: 2342
+Total de elementos faltando: 2

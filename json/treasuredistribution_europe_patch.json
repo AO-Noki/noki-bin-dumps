@@ -1,0 +1,42 @@
+{
+  "patch": {
+    "remove": [
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_OUTPOST_STANDARD']/Weekdays"
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_OUTPOST_WEEKEND']/Weekdays/Weekday[@day='Saturday']"
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_OUTPOST_WEEKEND']/Weekdays/Weekday[@day='Sunday']"
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_STANDARD']/Weekdays"
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_WEEKEND']/Weekdays/Weekday[@day='Saturday']"
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_WEEKEND']/Weekdays/Weekday[@day='Sunday']"
+      }
+    ],
+    "add": [
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_OUTPOST_STANDARD']",
+        "aschild": true
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_OUTPOST_WEEKEND']/Weekdays",
+        "aschild": true
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_STANDARD']",
+        "aschild": true
+      },
+      {
+        "sel": "TreasureDistribution/Events/Event[@name='CASTLE_WEEKEND']/Weekdays",
+        "aschild": true
+      }
+    ]
+  }
+}

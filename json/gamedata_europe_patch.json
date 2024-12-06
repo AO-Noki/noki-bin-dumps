@@ -1,0 +1,33 @@
+{
+  "patch": {
+    "replace": [
+      {
+        "sel": "AO-GameData/ServerSettings/RealEstateAuctionSettings",
+        "attribute": {
+          "name": "auctioncyclereferencetimestamp",
+          "newvalue": "2024-01-29T12:00"
+        }
+      },
+      {
+        "sel": "AO-GameData/Expedition/ExpeditionBonusRewardTimer/ResetTimer",
+        "attribute": {
+          "name": "utctime",
+          "newvalue": "10:00"
+        }
+      },
+      {
+        "sel": "AO-GameData/TerritoryBlockClaiming/clustergroup[@enddate='2020-02-01T18:00:00Z']",
+        "attribute": [
+          {
+            "name": "startdate",
+            "newvalue": "2024-04-24T10:00:00Z"
+          },
+          {
+            "name": "enddate",
+            "newvalue": "2024-05-25T18:00:00Z"
+          }
+        ]
+      }
+    ]
+  }
+}

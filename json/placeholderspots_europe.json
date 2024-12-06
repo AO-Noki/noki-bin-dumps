@@ -1,0 +1,251 @@
+{
+  "placeholderspots": {
+    "category": [
+      {
+        "name": "special_season",
+        "spot": [
+          {
+            "banner": {
+              "prefab": "HIGHLAND_DEAD_MONUMENT_GVG_EU_BETA_A",
+              "season": "GVG_SEASON_EU_BETA"
+            },
+            "statue": {
+              "prefab": "GVG_EU_BETA_FIRSTPLACE_CLICKABLE",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "STEPPE_DEAD_MONUMENT_GVG_EU_BETA_B",
+              "season": "GVG_SEASON_EU_BETA"
+            },
+            "statue": {
+              "prefab": "GVG_EU_BETA_SECONDPLACE_CLICKABLE",
+              "season": "GVG_SEASON_EU_BETA",
+              "placement": 2,
+              "text": "@GVG_SEASON_EU_BETA_SECOND_PLACE"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "STEPPE_DEAD_MONUMENT_GVG_EU_BETA_C",
+              "season": "GVG_SEASON_EU_BETA"
+            },
+            "statue": {
+              "prefab": "GVG_EU_BETA_THIRDPLACE_CLICKABLE",
+              "season": "GVG_SEASON_EU_BETA",
+              "placement": 3,
+              "text": "@GVG_SEASON_EU_BETA_THIRD_PLACE"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HIGHLAND_DEAD_CITY_PORTAL_MONUMENT_NO_LOGO",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          }
+        ]
+      },
+      {
+        "name": "gvg_season",
+        "spot": [
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_24"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_24",
+              "season": "GVG_SEASON_24"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_24"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_24"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_24",
+              "season": "GVG_SEASON_24"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_24"
+            }
+          },
+          {
+            "banner": {
+              "prefab": "HALL_OF_FAME_BANNER",
+              "season": "GVG_SEASON_23"
+            },
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_23",
+              "season": "GVG_SEASON_23"
+            },
+            "decoration": {
+              "prefab": "HALL_OF_FAME_SEASON_NUMBER_23"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          },
+          {
+            "statue": {
+              "prefab": "HALL_OF_FAME_THRONE_A_SEASON_EMPTY",
+              "season": "GVG_SEASON_EU_BETA"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
